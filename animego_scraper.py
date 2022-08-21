@@ -81,10 +81,15 @@ def getAnimeInfo(url):
     info_keys = info_block.find_all('dt', class_=re.compile('col-6 col-sm-4'))
     info_items = info_block.find_all('dd', class_=re.compile('col-6 col-sm-8'))
     soup_desc = soup.find('div', class_=re.compile('description'))
+    cover = soup.find('div', class_= re.compile('anime-poster')).find('img').get('src')
+    rate = soup.find('div', class_='pr-2').find('span', class_='rating-value').text
     info = {
         'title': title,
         'synonyms': getSynonyms(soup_synonyms),
+        'slug': getSlug(url),
         'description': soup_desc.text.strip(),
+        'rate': rate,
+        'cover': cover,
     }
     for i in range(len(info_keys)):
         key = re.sub('\W+', ' ', info_keys[i].text).strip().lower()
@@ -100,27 +105,7 @@ def getAnimeInfo(url):
             else:
                 info[key] = value
     logging.info(" anime info successfully received")
-    # TODO: add a rate and cover to the dictionary
     return info
-
-
-def getSynonyms(soup_titles):
-    return [t.text for t in soup_titles]
-
-
-def getStudios(soup_studios):
-    a_tag = soup_studios.find_all('a')
-    return [s.find('span').text for s in a_tag]
-
-
-def getCharacterLinks(soup_characters):
-    div_tag = soup_characters.find_all('div')
-    return [d.find('span').find('a').get('href') for d in div_tag]
-
-
-def getAuthorsLinks(soup_authors):
-    span_tag = soup_authors.find_all('span', itemprop='author')
-    return [s.find('a').get('href') for s in span_tag]
 
 
 def getCharacterInfo(url):
@@ -133,9 +118,12 @@ def getCharacterInfo(url):
     name = soup.find('div', class_=re.compile('character-title')).find('h1').text
     soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
     desc = soup.find('div', itemprop='description').text.strip()
+    cover = soup.find('div', class_=re.compile('character-poster')).find('img').get('src')
     info = {
         'name': name,
         'synonyms': getSynonyms(soup_synonyms),
+        'slug': getSlug(url),
+        'cover': cover,
         'description': desc,
     }
     return info
@@ -154,9 +142,12 @@ def getPerson(url):
     info_block = soup.find('div', class_='people-info')
     info_keys = info_block.find_all('dt', class_=re.compile('col-12 col-sm-4'))
     info_items = info_block.find_all('dd', class_=re.compile('col-12 col-sm-8'))
+    cover = soup.find('div', class_=re.compile('people-poster')).find('img').get('src')
     info = {
         'name': name,
-        'synonyms': getSynonyms(soup_synonyms)
+        'synonyms': getSynonyms(soup_synonyms),
+        'slug': getSlug(url),
+        'cover': cover,
     }
     for i in range(len(info_keys)):
         key = re.sub('\W+', ' ', info_keys[i].text).strip().lower()
@@ -182,10 +173,13 @@ def getMangaInfo(url):
     info_keys = info_block.find_all('dt', class_=re.compile('col-5 col-sm-4'))
     info_items = info_block.find_all('dd', class_=re.compile('col-7 col-sm-8'))
     soup_desc = soup.find('div', class_=re.compile('description'))
+    cover = soup.find('div', class_=re.compile('manga-poster')).find('img').get('src')
     info = {
         'title': title,
         'synonyms': getSynonyms(soup_synonyms),
+        'slug': getSlug(url),
         'description': soup_desc.text.strip(),
+        'cover': cover,
     }
     for i in range(len(info_keys)):
         key = re.sub('\W+', ' ', info_keys[i].text).strip().lower()
@@ -206,5 +200,25 @@ def getMangaInfo(url):
     return info
 
 
+def getSynonyms(soup_titles):
+    return [t.text for t in soup_titles]
 
+
+def getStudios(soup_studios):
+    a_tag = soup_studios.find_all('a')
+    return [s.find('span').text for s in a_tag]
+
+
+def getCharacterLinks(soup_characters):
+    div_tag = soup_characters.find_all('div')
+    return [d.find('span').find('a').get('href') for d in div_tag]
+
+
+def getAuthorsLinks(soup_authors):
+    span_tag = soup_authors.find_all('span', itemprop='author')
+    return [s.find('a').get('href') for s in span_tag]
+
+
+def getSlug(url):
+    return url.split('/')[4]
 

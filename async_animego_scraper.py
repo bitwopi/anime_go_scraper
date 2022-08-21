@@ -33,6 +33,13 @@ keys = {
     'возрастные ограничения': "age_restriction",
     'главные герои': "main_characters",
     'длительность': "duration",
+    'дата рождения': "birth_date",
+    'карьера': "career",
+    'авторы': "authors",
+    'главы': "chapters",
+    'тома': "tomes",
+    'издательство': "publisher",
+    'выпуск': "release",
 }
 
 
@@ -65,16 +72,20 @@ async def getAnimeInfo(session, url):
         html_file = await response.text()
         try:
             soup = BeautifulSoup(html_file, 'lxml')
-            main_title = soup.find('div', class_='anime-title').find('h1').text
-            soup_titles = soup.find('div', class_='synonyms').find_all('li')
+            title = soup.find('div', class_='anime-title').find('h1').text
+            soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
             info_block = soup.find('div', class_='anime-info')
             info_keys = info_block.find_all('dt', class_=re.compile('col-6 col-sm-4'))
             info_items = info_block.find_all('dd', class_=re.compile('col-6 col-sm-8'))
             soup_desc = soup.find('div', class_=re.compile('description'))
+            cover = soup.find('div', class_=re.compile('anime-poster')).find('img').get('src')
+            rate = soup.find('div', class_='pr-2').find('span', class_='rating-value').text
             info = {
-                'title': main_title,
-                'synonyms': getSynonyms(soup_titles),
+                'title': title,
+                'synonyms': getSynonyms(soup_synonyms),
                 'description': soup_desc.text.strip(),
+                'rate': rate,
+                'cover': cover,
             }
             for i in range(len(info_keys)):
                 key = re.sub('\W+', ' ', info_keys[i].text).strip().lower()
@@ -94,8 +105,6 @@ async def getAnimeInfo(session, url):
         except:
             logging.error(" response code is 200")
             return {}
-        # with open('result_a.json', 'w', encoding='utf-8') as file:
-        #    json.dump(info, file, indent=4, ensure_ascii=False)
 
 
 def getSynonyms(soup_titles):
@@ -112,42 +121,88 @@ def getCharacterLinks(soup_characters):
     return [d.find('span').find('a').get('href') for d in div_tag]
 
 
+def getAuthorsLinks(soup_authors):
+    span_tag = soup_authors.find_all('span', itemprop='author')
+    return [s.find('a').get('href') for s in span_tag]
+
+
 async def getCharacterInfo(session, url):
     """ returns a dictionary with info about character from url """
     async with session.get(url=url, headers=randomUserAgent()) as response:
-        html_file = await response.content
+        html_file = await response.text()
         soup = BeautifulSoup(html_file, 'lxml')
-        title = soup.find('div', class_=re.compile('character-title')).find('h1').text
+        name = soup.find('div', class_=re.compile('character-title')).find('h1').text
         soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
         desc = soup.find('div', itemprop='description').text.strip()
+        cover = soup.find('div', class_=re.compile('character-poster')).find('img').get('src')
         info = {
-            'title': title,
+            'name': name,
             'synonyms': getSynonyms(soup_synonyms),
+            'cover': cover,
             'description': desc,
         }
-        # with open('result_c.json', 'w', encoding='utf-8') as file:
-        #    json.dump(info, file, indent=4, ensure_ascii=False)
         return info
 
 
 async def getPerson(session, url):
     """ returns a dictionary with info about person from url """
     async with session.get(url=url, headers=randomUserAgent()) as response:
-        html_file = await response.content
+        html_file = await response.text()
         soup = BeautifulSoup(html_file, 'lxml')
-        title = soup.find('div', class_=re.compile('people-title')).find('h1').text
+        name = soup.find('div', class_=re.compile('people-title')).find('h1').text
         soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
         info_block = soup.find('div', class_='people-info')
         info_keys = info_block.find_all('dt', class_=re.compile('col-12 col-sm-4'))
         info_items = info_block.find_all('dd', class_=re.compile('col-12 col-sm-8'))
+        cover = soup.find('div', class_=re.compile('people-poster')).find('img').get('src')
         info = {
-            'title': title,
-            'synonyms': getSynonyms(soup_synonyms)
+            'name': name,
+            'synonyms': getSynonyms(soup_synonyms),
+            'cover': cover,
         }
         for i in range(len(info_keys)):
             key = re.sub('\W+', ' ', info_keys[i].text).strip().lower()
             value = re.sub('\W+', ' ', info_items[i].text).strip()
             info[key] = value
-        # with open('result_p.json', 'w', encoding='utf-8') as file:
-        #    json.dump(info, file, indent=4, ensure_ascii=False)
         return info
+
+
+async def getMangaInfo(session, url):
+    """ returns a dictionary with info about manga from url """
+    async with session.get(url=url, headers=randomUserAgent()) as response:
+        try:
+            html_file = await response.text()
+            soup = BeautifulSoup(html_file, 'lxml')
+            title = soup.find('div', class_='manga-title').find('h1').text
+            soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
+            info_block = soup.find('div', class_=re.compile('manga-info'))
+            info_keys = info_block.find_all('dt', class_=re.compile('col-5 col-sm-4'))
+            info_items = info_block.find_all('dd', class_=re.compile('col-7 col-sm-8'))
+            soup_desc = soup.find('div', class_=re.compile('description'))
+            cover = soup.find('div', class_=re.compile('manga-poster')).find('img').get('src')
+            info = {
+                'title': title,
+                'synonyms': getSynonyms(soup_synonyms),
+                'description': soup_desc.text.strip(),
+                'cover': cover,
+            }
+            for i in range(len(info_keys)):
+                key = re.sub('\W+', ' ', info_keys[i].text).strip().lower()
+                value = re.sub('\W+', ' ', info_items[i].text).strip()
+                if key in keys.keys():
+                    key = keys[key]
+                    if key == "genres":
+                        info[key] = value.split(' ')
+                    elif key == "studio":
+                        info[key] = getStudios(info_items[i])
+                    elif key == "main_characters":
+                        info[key] = getCharacterLinks(info_items[i])
+                    elif key == "authors":
+                        info[key] = getAuthorsLinks(info_items[i])
+                    else:
+                        info[key] = value
+            logging.info(" manga info successfully received")
+            return info
+        except:
+            logging.info(" manga response code is 200")
+            return {}

@@ -1,39 +1,82 @@
 [
     {
-        "title": "У меня мало друзей",
+        "title": "Детективы Футо",
         "synonyms": [
-            "Haganai: I don't have many friends",
-            "僕は友達が少ない"
+            "風都探偵",
+            "Futo Detective",
+            "Kamen Rider W: Futo Detective",
+            "Kamen Rider W: Fuuto Tantei",
+            "Kamen Rider W: The Detectives of Fuuto"
         ],
-        "description": "Кодака Хасэгава перевёлся в новую школу, и ему трудно завести друзей. А цвет его волос ему совсем не помогает, а наоборот — склоняет людей к мнению, что он преступник. Однажды он сталкивается с одиночкой-одноклассницей с дурным характером — Ёдзорой Микадзуки, которая разговаривает со своей воображаемой подругой Томой. Понимая, что у них нет реальных друзей, они решают, что лучший способ решения этой проблемы — создать клуб и начать приём желающих.",
+        "slug": "detektivy-futo-1482",
+        "description": "",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/manga/images/62e6d55a5ee6f924736128.jpg",
         "type": "Манга",
-        "tomes": "20",
-        "chapters": "109",
-        "release": "с 27 марта 2010 по 26 декабря 2020",
+        "release": "с 7 августа 2017",
         "genres": [
-            "Комедия",
-            "Романтика",
+            "Детектив",
+            "Драма",
+            "Полиция",
+            "Сверхъестественное",
             "Сэйнэн",
-            "Школа"
+            "Экшен"
         ],
-        "publisher": "Comic Alive",
+        "publisher": "Big Comic Spirits",
         "authors": [
-            "https://animego.org/person/1841-yomi-hirasaka",
-            "https://animego.org/person/12909-itachi"
+            "https://animego.org/person/12905-riku-sanjou",
+            "https://animego.org/person/12906-masaki-satou"
         ]
     },
     {
-        "title": "Ёми Хирасака",
+        "title": "Созданный в Бездне: Солнце, вспыхнувшее в Золотом городе",
         "synonyms": [
-            "Hirasaka Yomi",
-            "平坂読"
+            "Made in Abyss: Retsujitsu no Ougonkyou",
+            "Made in Abyss: The Golden City of the Scorching Sun",
+            "メイドインアビス 烈日の黄金郷"
+        ],
+        "slug": "sozdannyy-v-bezdne-solnce-vspyhnuvshee-v-zolotom-gorode-s2085",
+        "description": "Второй сезон.",
+        "rate": "9,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c5a4b57cfa1601529074.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "7 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Детектив",
+            "Драма",
+            "Приключения",
+            "Фантастика",
+            "Фэнтези"
+        ],
+        "release": "с 6 июля 2022",
+        "studio": [
+            "Kinema Citrus"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/3264-nanachi",
+            "https://animego.org/character/3252-reg",
+            "https://animego.org/character/3253-riko"
         ]
     },
     {
-        "title": "Itachi",
+        "name": "Рику Сандзё",
         "synonyms": [
             "",
             ""
-        ]
+        ],
+        "slug": "12905-riku-sanjou",
+        "cover": "https://animego.org/media/cache/thumbs_180x252/upload/people/62e6d479d7c28558122010.jpg"
+    },
+    {
+        "name": "Масаки Сато",
+        "synonyms": [
+            "",
+            ""
+        ],
+        "slug": "12906-masaki-satou",
+        "cover": "https://animego.org/media/cache/thumbs_180x252/upload/people/62e6d53c4458e352257038.jpg"
     }
 ]

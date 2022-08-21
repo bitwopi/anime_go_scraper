@@ -24,12 +24,14 @@ async def async_main():
 
 def main():
     logging.basicConfig(level=logging.INFO)
-    """    for i in range(1, 2):
+    """    for i in range(1, 6):
         links = getPageItemsLinks(i)
         for link in links:
             a = getAnimeInfo(link)"""
-    m = getMangaInfo('https://animego.org/manga/u-menya-malo-druzey-1484')
+    a = getAnimeInfo('https://animego.org/anime/sozdannyy-v-bezdne-solnce-vspyhnuvshee-v-zolotom-gorode-s2085')
+    m = getMangaInfo('https://animego.org/manga/detektivy-futo-1482')
     result.append(m)
+    result.append(a)
     for a in m['authors']:
         result.append(getPerson(a))
 
