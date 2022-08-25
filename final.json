@@ -28,37 +28,38 @@
         ]
     },
     {
-        "title": "Созданный в Бездне: Солнце, вспыхнувшее в Золотом городе",
+        "title": "Удар крови: Финал",
         "synonyms": [
-            "Made in Abyss: Retsujitsu no Ougonkyou",
-            "Made in Abyss: The Golden City of the Scorching Sun",
-            "メイドインアビス 烈日の黄金郷"
+            "Strike the Blood Final",
+            "ストライク・ザ・ブラッドFINAL",
+            "Strike the Blood Fifth",
+            "Strike the Blood V"
         ],
-        "slug": "sozdannyy-v-bezdne-solnce-vspyhnuvshee-v-zolotom-gorode-s2085",
-        "description": "Второй сезон.",
-        "rate": "9,4",
-        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c5a4b57cfa1601529074.jpg",
-        "type": "ТВ Сериал",
-        "episodes": "7 12",
-        "status": "Онгоинг",
+        "slug": "udar-krovi-final-s2104",
+        "description": "Четвёртый чистокровный — сильнейший вампир, существующий лишь в легендах. Вскоре он должен появиться в Японии вместе с двенадцатью сильнейшими фамильярами, которые принесут в мир хаос и разруху. Обыкновенный школьник по имени Кодзё Акацуки по непонятной причине превратился в «чистокровного вампира». Для того, чтобы не допустить катастрофы, организация «Лев» отправляет боевого мага, «шамана клинка», — Юкину Химэраги, чтобы следить за Кодзё и убить его в случае, если он выйдет из-под контроля.",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62fba82be9f9b076684404.jpg",
+        "type": "OVA",
+        "episodes": "4",
+        "status": "Вышел",
         "genres": [
-            "Детектив",
-            "Драма",
-            "Приключения",
-            "Фантастика",
-            "Фэнтези"
+            "Вампиры",
+            "Гарем",
+            "Сверхъестественное",
+            "Фэнтези",
+            "Экшен",
+            "Этти"
         ],
-        "release": "с 6 июля 2022",
+        "release": "с 30 марта 2022 по 29 июля 2022",
         "studio": [
-            "Kinema Citrus"
+            "Connect"
         ],
         "mpaa_rate": "NC 17",
         "age_restriction": "18",
-        "duration": "24 мин серия",
+        "duration": "26 мин серия",
         "main_characters": [
-            "https://animego.org/character/3264-nanachi",
-            "https://animego.org/character/3252-reg",
-            "https://animego.org/character/3253-riko"
+            "https://animego.org/character/14353-kojou-akatsuki",
+            "https://animego.org/character/14354-yukina-himeragi"
         ]
     },
     {

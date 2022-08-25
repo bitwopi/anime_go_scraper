@@ -1,5 +1,3 @@
-import itertools
-import json
 import logging
 import re
 import time
@@ -82,7 +80,10 @@ def getAnimeInfo(url):
     info_items = info_block.find_all('dd', class_=re.compile('col-6 col-sm-8'))
     soup_desc = soup.find('div', class_=re.compile('description'))
     cover = soup.find('div', class_= re.compile('anime-poster')).find('img').get('src')
-    rate = soup.find('div', class_='pr-2').find('span', class_='rating-value').text
+    try:
+        rate = soup.find('div', class_='pr-2').find('span', class_='rating-value').text
+    except:
+        rate = 0
     info = {
         'title': title,
         'synonyms': getSynonyms(soup_synonyms),

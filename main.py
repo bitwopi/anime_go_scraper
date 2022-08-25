@@ -24,11 +24,11 @@ async def async_main():
 
 def main():
     logging.basicConfig(level=logging.INFO)
-    """    for i in range(1, 6):
-        links = getPageItemsLinks(i)
-        for link in links:
-            a = getAnimeInfo(link)"""
-    a = getAnimeInfo('https://animego.org/anime/sozdannyy-v-bezdne-solnce-vspyhnuvshee-v-zolotom-gorode-s2085')
+    # for i in range(1, 6):
+    #     links = getPageItemsLinks(i)
+    #     for link in links:
+    #         a = getAnimeInfo(link)
+    a = getAnimeInfo('https://animego.org/anime/udar-krovi-final-s2104')
     m = getMangaInfo('https://animego.org/manga/detektivy-futo-1482')
     result.append(m)
     result.append(a)
@@ -41,14 +41,12 @@ def main():
 
 if __name__ == '__main__':
     main()
-    """
-    loop = asyncio.get_event_loop()
-    logging.basicConfig(level='INFO')
-    try:
-        loop.run_until_complete(async_main())
-        with open("final.json", 'w', encoding='utf-8') as file:
-            json.dump(result, file, indent=4, ensure_ascii=False)
-    finally:
-        loop.stop()
-    """
+    # loop = asyncio.get_event_loop()
+    # logging.basicConfig(level='INFO')
+    # try:
+    #     loop.run_until_complete(async_main())
+    #     with open("final.json", 'w', encoding='utf-8') as file:
+    #         json.dump(result, file, indent=4, ensure_ascii=False)
+    # finally:
+    #     loop.stop()
 
