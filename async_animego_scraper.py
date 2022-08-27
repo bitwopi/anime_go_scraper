@@ -102,8 +102,8 @@ async def getAnimeInfo(session, url):
                         info[key] = value
             logging.info(" info successfully received")
             return info
-        except:
-            logging.error(" response code is 200")
+        finally:
+            logging.error(" response code isn't 200")
             return {}
 
 
@@ -203,6 +203,6 @@ async def getMangaInfo(session, url):
                         info[key] = value
             logging.info(" manga info successfully received")
             return info
-        except:
-            logging.info(" manga response code is 200")
+        finally:
+            logging.info(" manga response code isn't 200")
             return {}

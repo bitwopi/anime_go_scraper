@@ -48,11 +48,11 @@ def randomUserAgent():
     }
 
 
-def getPageItemsLinks(page=1):
+def getPageItemsLinks(keyword="anime", page=1):
     """ returns links to all anime on a page """
-    response = cfscraper.get('https://animego.org/anime/{}'.format(page), headers=randomUserAgent())
+    response = cfscraper.get('https://animego.org/{}/{}'.format(keyword, page), headers=randomUserAgent())
     if response.status_code != 200:
-        logging.info(" page response code is 200")
+        logging.info(" page response code isn't 200")
         return []
     html_file = response.content
     soup = BeautifulSoup(html_file, 'lxml')
@@ -66,59 +66,65 @@ def getPageItemsLinks(page=1):
 
 def getAnimeInfo(url):
     """ returns dictionary with info about anime from link """
-    response = cfscraper.get(url, headers=randomUserAgent())
-    if response.status_code != 200:
-        logging.info(" anime response code is 200")
-        time.sleep(30)
-        return {}
-    html_file = response.content
-    soup = BeautifulSoup(html_file, 'lxml')
-    title = soup.find('div', class_='anime-title').find('h1').text
-    soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
-    info_block = soup.find('div', class_='anime-info')
-    info_keys = info_block.find_all('dt', class_=re.compile('col-6 col-sm-4'))
-    info_items = info_block.find_all('dd', class_=re.compile('col-6 col-sm-8'))
-    soup_desc = soup.find('div', class_=re.compile('description'))
-    cover = soup.find('div', class_= re.compile('anime-poster')).find('img').get('src')
     try:
-        rate = soup.find('div', class_='pr-2').find('span', class_='rating-value').text
+        response = cfscraper.get(url, headers=randomUserAgent())
+        if response.status_code != 200:
+            logging.info(" anime response code isn't 200")
+            return {}
+        html_file = response.content
+        soup = BeautifulSoup(html_file, 'lxml')
+        title = soup.find('div', class_='anime-title').find('h1').text
+        soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
+        info_block = soup.find('div', class_='anime-info')
+        info_keys = info_block.find_all('dt', class_=re.compile('col-6 col-sm-4'))
+        info_items = info_block.find_all('dd', class_=re.compile('col-6 col-sm-8'))
+        soup_desc = soup.find('div', class_=re.compile('description'))
+        cover = soup.find('div', class_=re.compile('anime-poster')).find('img').get('src')
+        try:
+            rate = soup.find('div', class_='pr-2').find('span', class_='rating-value').text
+        except:
+            rate = 0
+        info = {
+            'title': title,
+            'synonyms': getSynonyms(soup_synonyms),
+            'slug': getSlug(url),
+            'description': soup_desc.text.strip(),
+            'rate': rate,
+            'cover': cover,
+        }
+        for i in range(len(info_keys)):
+            key = re.sub('\W+', ' ', info_keys[i].text).strip().lower()
+            value = re.sub('\W+', ' ', info_items[i].text).strip()
+            if key in keys.keys():
+                key = keys[key]
+                if key == "genres":
+                    info[key] = value.split(' ')
+                elif key == "studio":
+                    info[key] = getStudios(info_items[i])
+                elif key == "main_characters":
+                    info[key] = getCharacterLinks(info_items[i])
+                else:
+                    info[key] = value
+        logging.info(" anime info successfully received")
+        return info
     except:
-        rate = 0
-    info = {
-        'title': title,
-        'synonyms': getSynonyms(soup_synonyms),
-        'slug': getSlug(url),
-        'description': soup_desc.text.strip(),
-        'rate': rate,
-        'cover': cover,
-    }
-    for i in range(len(info_keys)):
-        key = re.sub('\W+', ' ', info_keys[i].text).strip().lower()
-        value = re.sub('\W+', ' ', info_items[i].text).strip()
-        if key in keys.keys():
-            key = keys[key]
-            if key == "genres":
-                info[key] = value.split(' ')
-            elif key == "studio":
-                info[key] = getStudios(info_items[i])
-            elif key == "main_characters":
-                info[key] = getCharacterLinks(info_items[i])
-            else:
-                info[key] = value
-    logging.info(" anime info successfully received")
-    return info
+        {}
 
 
 def getCharacterInfo(url):
     """ returns a dictionary with info about character from url """
     response = cfscraper.get(url, headers=randomUserAgent())
     if response.status_code != 200:
+        logging.error(" status code isn't 200")
         return {}
     html_file = response.content
     soup = BeautifulSoup(html_file, 'lxml')
     name = soup.find('div', class_=re.compile('character-title')).find('h1').text
     soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
-    desc = soup.find('div', itemprop='description').text.strip()
+    try:
+        desc = soup.find('div', itemprop='description').text.strip()
+    except:
+        desc = ''
     cover = soup.find('div', class_=re.compile('character-poster')).find('img').get('src')
     info = {
         'name': name,
@@ -127,6 +133,7 @@ def getCharacterInfo(url):
         'cover': cover,
         'description': desc,
     }
+    logging.info(" character info successfully")
     return info
 
 
@@ -134,7 +141,7 @@ def getPerson(url):
     """ returns a dictionary with info about person from url """
     response = cfscraper.get(url, headers=randomUserAgent())
     if response.status_code != 200:
-        logging.info(" person response code is 200")
+        logging.info(" person response code isn't 200")
         return {}
     html_file = response.content
     soup = BeautifulSoup(html_file, 'lxml')
@@ -164,7 +171,7 @@ def getMangaInfo(url):
     """ returns a dictionary with info about manga from url """
     response = cfscraper.get(url, headers=randomUserAgent())
     if response.status_code != 200:
-        logging.info(" manga response code is 200")
+        logging.info(" manga response code isn't 200")
         return {}
     html_file = response.content
     soup = BeautifulSoup(html_file, 'lxml')

@@ -1,30 +1,160 @@
 [
     {
-        "title": "Детективы Футо",
+        "title": "Рилаккума и Каору",
         "synonyms": [
-            "風都探偵",
-            "Futo Detective",
-            "Kamen Rider W: Futo Detective",
-            "Kamen Rider W: Fuuto Tantei",
-            "Kamen Rider W: The Detectives of Fuuto"
+            "Rilakkuma to Kaoru-san",
+            "Rilakkuma and Kaoru",
+            "リラックマとカオルさん"
         ],
-        "slug": "detektivy-futo-1482",
+        "slug": "rilakkuma-i-kaoru-2109",
+        "description": "Будни офисной работницы Каору и внезапно поселившегося у неё медведя по имени Рилаккума с молнией-застёжкой на спине, который только и хочет, что есть и валяться днями напролёт.",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6307ac0ad7f92721906027.jpg",
+        "type": "ONA",
+        "episodes": "13",
+        "genres": [
+            "Детское"
+        ],
+        "release": "19 апреля 2019",
+        "studio": [
+            "dwarf"
+        ],
+        "age_restriction": "6",
+        "duration": "11 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29937-kaoru",
+            "https://animego.org/character/29939-kiiroitori",
+            "https://animego.org/character/29940-korilakkuma",
+            "https://animego.org/character/29938-rilakkuma",
+            "https://animego.org/character/29941-sayu"
+        ]
+    },
+    {
+        "title": "Рилаккума и парк развлечений",
+        "synonyms": [
+            "Rilakkuma to Yuuenchi",
+            "Rilakkuma's Theme Park Adventure",
+            "リラックマと遊園地",
+            "Приключения Рилаккумы в парке развлечений"
+        ],
+        "slug": "rilakkuma-i-park-razvlecheniy-2108",
         "description": "",
-        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/manga/images/62e6d55a5ee6f924736128.jpg",
-        "type": "Манга",
-        "release": "с 7 августа 2017",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6307a16bcadee094561558.jpg",
+        "type": "ONA",
+        "episodes": "8",
+        "genres": [
+            "Детское"
+        ],
+        "release": "25 августа 2022",
+        "studio": [
+            "dwarf"
+        ],
+        "mpaa_rate": "PG",
+        "age_restriction": "6",
+        "duration": "16 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29937-kaoru",
+            "https://animego.org/character/29938-rilakkuma"
+        ]
+    },
+    {
+        "title": "Граница пустоты: Благословение будущего — Дополнительная глава",
+        "synonyms": [
+            "Kara no Kyoukai Movie: Mirai Fukuin - Extra Chorus",
+            "The Garden of Sinners: Future Gospel - Extra Chorus",
+            "劇場版 空の境界 未来福音 extra chorus",
+            "Kara no Kyoukai: the Garden of sinners/recalled out summer - extra chorus",
+            "the Garden of sinners -recalled out summer- extra chorus"
+        ],
+        "slug": "granica-pustoty-blagoslovenie-buduschego-dopolnitelnaya-glava-2107",
+        "description": "Аниме-адаптация манги Такаши Такеучи, состоящая из трёх коротких историй-дополнений к новелле «Граница пустоты: Благословение будущего». Входит в состав диска с оригинальным фильмом в качестве бонуса.",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/63068f2b47e1d380067763.jpg",
+        "type": "Спешл",
+        "episodes": "1",
         "genres": [
             "Детектив",
             "Драма",
-            "Полиция",
             "Сверхъестественное",
-            "Сэйнэн",
+            "Сёнэн"
+        ],
+        "release": "28 сентября 2013",
+        "studio": [
+            "ufotable"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "32 мин",
+        "main_characters": [
+            "https://animego.org/character/27194-fujino-asagami",
+            "https://animego.org/character/27189-mikiya-kokutou",
+            "https://animego.org/character/29926-ririsu-miyazuki",
+            "https://animego.org/character/27190-shiki-ryougi"
+        ]
+    },
+    {
+        "title": "Теккен: Кровные узы",
+        "synonyms": [
+            "Tekken: Bloodline",
+            "Tekken: Bloodline",
+            "Теккен: узы крови"
+        ],
+        "slug": "tekken-krovnye-uzy-2106",
+        "description": "Дзин Кадзама освоил боевые искусства еще в детстве, но его сил было недостаточно, чтобы остановить зло, которое уничтожило все, что было дорого мальчику. Герою предстоит найти своего деда, который сможет обучить его боевым навыкам в совершенстве, чтобы одолеть древнего монстра Огра и принять участие в турнире «Король Железного Кулака».",
+        "rate": "7,3",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/63046d32db23e714575447.jpg",
+        "type": "ONA",
+        "episodes": "6",
+        "genres": [
+            "Боевые",
+            "искусства",
             "Экшен"
         ],
-        "publisher": "Big Comic Spirits",
-        "authors": [
-            "https://animego.org/person/12905-riku-sanjou",
-            "https://animego.org/person/12906-masaki-satou"
+        "release": "18 августа 2022",
+        "studio": [
+            "Larx Entertainment",
+            "Studio Hibari"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "25 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29927-jin-kazama"
+        ]
+    },
+    {
+        "title": "Граница пустоты: Благословение будущего",
+        "synonyms": [
+            "Kara no Kyoukai Movie: Mirai Fukuin",
+            "The Garden of Sinners: Future Gospel",
+            "劇場版 空の境界 未来福音",
+            "Kara no Kyoukai: the Garden of sinners/recalled out summer",
+            "the Garden of sinners -recalled out summer-"
+        ],
+        "slug": "granica-pustoty-blagoslovenie-buduschego-2105",
+        "description": "Это история о предсказателях и предсказаниях. С раннего детства Сидзунэ Сэо видела будущее других людей, и её это всегда тяготило. Она раз за разом пыталась предупредить людей об опасности с помощью своего дара, но никто ей не верил до тех пор, пока она однажды не встретила странного парня по имени Микия Кокуто.В другом месте человек, называющий себя Курамицу Мерука, работал подрывником. Даже в самом безнадёжном положении ему всегда удавалось выходить сухим из воды благодаря дару абсолютного предвидения. Однако как-то раз он встретил девушку, которую не смог выявить в своём будущем, девушку по имени Сики Рёги.А через десять лет странный писатель беседует с милой девочкой в старом пятиэтажном заброшенном здании, переделанном под захламлённый офис. И события прошедших лет по-новому раскрываются в их небольшой беседе...",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6303f17eafb02636340128.jpg",
+        "type": "Фильм",
+        "genres": [
+            "Детектив",
+            "Драма",
+            "Сверхъестественное",
+            "Сэйнэн"
+        ],
+        "release": "28 сентября 2013",
+        "studio": [
+            "ufotable"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "1 ч 30 мин",
+        "main_characters": [
+            "https://animego.org/character/29923-mitsuru-kamekura",
+            "https://animego.org/character/27189-mikiya-kokutou",
+            "https://animego.org/character/27190-shiki-ryougi",
+            "https://animego.org/character/27259-shizune-seo"
         ]
     },
     {
@@ -35,7 +165,7 @@
             "Strike the Blood Fifth",
             "Strike the Blood V"
         ],
-        "slug": "udar-krovi-final-s2104",
+        "slug": "udar-krovi-final-2104",
         "description": "Четвёртый чистокровный — сильнейший вампир, существующий лишь в легендах. Вскоре он должен появиться в Японии вместе с двенадцатью сильнейшими фамильярами, которые принесут в мир хаос и разруху. Обыкновенный школьник по имени Кодзё Акацуки по непонятной причине превратился в «чистокровного вампира». Для того, чтобы не допустить катастрофы, организация «Лев» отправляет боевого мага, «шамана клинка», — Юкину Химэраги, чтобы следить за Кодзё и убить его в случае, если он выйдет из-под контроля.",
         "rate": 0,
         "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62fba82be9f9b076684404.jpg",
@@ -63,21 +193,2151 @@
         ]
     },
     {
-        "name": "Рику Сандзё",
+        "title": "Технолайз",
         "synonyms": [
-            "",
-            ""
+            "Texhnolyze",
+            "Texhnolyze",
+            "TEXHNOLYZE",
+            "Technolyze"
         ],
-        "slug": "12905-riku-sanjou",
-        "cover": "https://animego.org/media/cache/thumbs_180x252/upload/people/62e6d479d7c28558122010.jpg"
+        "slug": "tehnolayz-2103",
+        "description": "Давным-давно забытый всеми подземный город Люкс стал ловушкой для своих жителей. Они находятся в отчаянном положении, так как контроль над территорией принадлежит преступным группировкам, равновесие между которыми крайне сомнительное. Для «управления» городом была изобретена особая технология – «Технолайз». Благодаря ей отдельные жители города обладают технолизированными протезами, заменяющими части их тела. Роботизированные конечности во много раз сильнее и выносливее человеческого тела.Сюжет сериала разворачивается вокруг немногословного парня Итисэ. Он уличный боец и потомок одного из первых обитателей Люкса. После одного из своих боев Итисэ навлекает на себя гнев преступной группировки Орган. В результате конфликта парень лишается руки и ноги. Очнувшись в кабинете доктора, он осознает, что его утраченные конечности были заменены протезами «Технолайз». Сможет ли наш герой совладать с этой технологией, какие еще опасные трудности его ожидают в ближайшем будущем? И чем же в итоге окажется сам «Технолайз» – спасением города, как предполагалось изначально, или же, наоборот, предтечей его краха?",
+        "rate": "8,0",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62ecbbc4ecedb450805478.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "22",
+        "status": "Вышел",
+        "genres": [
+            "Драма",
+            "Фантастика",
+            "Экшен"
+        ],
+        "release": "с 17 апреля 2003 по 25 сентября 2003",
+        "studio": [
+            "Madhouse Studios"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29892-ichise",
+            "https://animego.org/character/29893-ran"
+        ]
     },
     {
-        "name": "Масаки Сато",
+        "title": "Безумный азарт: Близнецы",
         "synonyms": [
-            "",
-            ""
+            "Kakegurui Twin",
+            "Kakegurui Twin",
+            "賭ケグルイ双",
+            "Compulsive Gambler Twin"
         ],
-        "slug": "12906-masaki-satou",
-        "cover": "https://animego.org/media/cache/thumbs_180x252/upload/people/62e6d53c4458e352257038.jpg"
-    }
+        "slug": "bezumnyy-azart-bliznecy-2102",
+        "description": "Чтобы подняться по социальной лестнице, Мэри Саотомэ вкладывает всё, что имеет, в то, что ценится больше всего в ее элитной школе — азартные игры с высокими ставками.",
+        "rate": "8,5",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62ebbed75bc4f568031854.jpg",
+        "type": "ONA",
+        "episodes": "6",
+        "genres": [
+            "Детектив",
+            "Драма",
+            "Психологическое",
+            "Сёнэн",
+            "Школа"
+        ],
+        "release": "4 августа 2022",
+        "studio": [
+            "MAPPA"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "26 мин серия",
+        "main_characters": [
+            "https://animego.org/character/3392-tsuzura-hanatemari",
+            "https://animego.org/character/3370-mary-saotome"
+        ]
+    },
+    {
+        "title": "У меня мало друзей: Дополнение",
+        "synonyms": [
+            "Boku wa Tomodachi ga Sukunai: Relay Shousetsu wa Ketsumatsu ga Hanpanai",
+            "Haganai: A Round-Robin Story's Ending Is Way Extreme",
+            "僕は友達が少ない リレー小説は結末が半端ないL(゜□゜)」",
+            "I Don't Have Many Friends: Add-on Disc",
+            "Boku wa Tomodachi ga Sukunai: Add-on Disc"
+        ],
+        "slug": "u-menya-malo-druzey-dopolnenie-2101",
+        "description": "Тринадцатый эпизод, дополнение к оригинальному сериалу.В нем рассказывается о том, как члены «клуба соседей» пытались написать совместный рассказ.",
+        "rate": "7,9",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62eafa8f7dc16900472940.jpg",
+        "type": "OVA",
+        "episodes": "1",
+        "genres": [
+            "Гарем",
+            "Комедия",
+            "Повседневность",
+            "Романтика",
+            "Школа"
+        ],
+        "release": "26 сентября 2012",
+        "studio": [
+            "AIC Build"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "24 мин",
+        "main_characters": [
+            "https://animego.org/character/29855-kodaka-hasegawa",
+            "https://animego.org/character/29856-sena-kashiwazaki",
+            "https://animego.org/character/29857-yozora-mikazuki"
+        ]
+    },
+    {
+        "title": "У меня мало друзей: Эпизод 0",
+        "synonyms": [
+            "Boku wa Tomodachi ga Sukunai: Yaminabe wa Bishoujo ga Zannen na Nioi",
+            "僕は友達が少ない 闇鍋は美少女が残念な臭い",
+            "Boku wa Tomodachi ga Sukunai Episode 0",
+            "Boku wa Tomodachi ga Sukunai OVA",
+            "Haganai OVA",
+            "I Don't Have Many Friends OVA",
+            "Boku ha Tomodachi ga Sukunai OVA"
+        ],
+        "slug": "u-menya-malo-druzey-epizod-0-2100",
+        "description": "Это суровая история о буднях «клуба соседей», в которой затейливо переплелись мечты и реальность. Реальность, как всегда, победила.",
+        "rate": "7,2",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62eaf52113999238990667.jpg",
+        "type": "OVA",
+        "episodes": "1",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Романтика",
+            "Школа"
+        ],
+        "release": "22 сентября 2011",
+        "studio": [
+            "AIC Build"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "11 мин",
+        "main_characters": [
+            "https://animego.org/character/29855-kodaka-hasegawa",
+            "https://animego.org/character/29856-sena-kashiwazaki",
+            "https://animego.org/character/29857-yozora-mikazuki"
+        ]
+    },
+    {
+        "title": "У меня мало друзей: Продолжение",
+        "synonyms": [
+            "Boku wa Tomodachi ga Sukunai Next",
+            "Haganai: I don't have many friends NEXT",
+            "僕は友達が少ないNEXT",
+            "Boku wa Tomodachi ga Sukunai 2nd Season"
+        ],
+        "slug": "u-menya-malo-druzey-prodolzhenie-2099",
+        "description": "Уже более полугода в академии Святой Хроники существует так называемый «Клуб соседей», где нелюдимые одиночки могут найти себе друзей и научиться правильному общению с людьми. Его основатель Кодака Хасэгава вместе с пятеркой талантливых и разнохарактерных девушек решил, что лучше всего учиться ремеслу дружбы среди таких же одиноких мизантропов. В такой обстановке и смущения поменьше будет, и в положение окружающих войти заметно проще. Вот так эти ребята встают на путь выстраивания новых для себя отношений. Кто-то восстанавливает старые дружеские связи, кто-то получает новые, у кого-то получается найти иные, доселе неведомые связи.В целом наши герои вполне обычные подростки, которые хоть и имеют свои уникальные особенности, не сильно отличаются от окружающих. И теперь их «Клуб соседей» решил перейти на новый этап своего развития, а именно принять участие в грядущем школьном фестивале, благодаря чему можно быстро поднять его популярность. Что же ожидает друзей на этом пути? Ошеломительный успех или катастрофический провал? В любом случае такая нетривиальная компания сможет добиться интересных и неожиданных результатов!",
+        "rate": "8,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62eae2ca5c896316647839.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "12",
+        "status": "Вышел",
+        "genres": [
+            "Гарем",
+            "Комедия",
+            "Повседневность",
+            "Романтика",
+            "Школа"
+        ],
+        "release": "с 11 января 2013 по 29 марта 2013",
+        "studio": [
+            "AIC Build"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "18",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29855-kodaka-hasegawa",
+            "https://animego.org/character/29856-sena-kashiwazaki",
+            "https://animego.org/character/29857-yozora-mikazuki",
+            "https://animego.org/character/29866-rika-shiguma"
+        ]
+    },
+    {
+        "title": "У меня мало друзей",
+        "synonyms": [
+            "Boku wa Tomodachi ga Sukunai",
+            "Haganai: I don't have many friends",
+            "僕は友達が少ない",
+            "I Don't Have Many Friends"
+        ],
+        "slug": "u-menya-malo-druzey-2098",
+        "description": "17-летний японский старшеклассник Кодака Хасэгава имеет довольно нестандартную внешность. Его отец – японец, мать – англичанка. Из-за этого паренек имеет нетипичный для японцев цвет волос – он блондин. Это вызывает беспокойство у окружающих. В предыдущих школах этого доброго и старательного подростка принимали за дебошира, сторонились и старались с ним не связываться. Академия Св. Хроники не стала исключением из правила. Гуляя по её коридорам, Кодака зашел в пустующий класс, где с удивлением обнаружил, как его миловидная одноклассница по имени Ёдзора Микадзуки общается с несуществующей подругой. Поначалу она показалась Кодаке угрюмой и одинокой девушкой, но понемногу они начали мило беседовать. Обсудив важность дружбы в человеческой жизни, ребята сошлись на мысли, что оба хотят завести друзей, но не имеют представления, как это можно сделать. Решение проблемы оказалось очевидным – необходимо создать собственный новый клуб друзей!Вскоре в их «Клубе соседей» начали собираться разные персонажи. Юная монахиня по имени Мария, у которой проблемы с социализацией. Звезда и главная красавица школы Сэна Касивадзаки, которая ищет настоящей дружбы вместо фанатичных поклонений одноклассников. Молодая сумасшедшая ученая и фанатка сенен-ай. Миловидный парень, который обожает косплей с «перчинкой». И маленькая милая сестренка Кодаки. Постепенно все эти столь разные герои начинают сближаться и познавать радости и тяготы настоящей дружбы.",
+        "rate": "8,2",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62eae08b3f576349300691.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "12",
+        "status": "Вышел",
+        "genres": [
+            "Гарем",
+            "Комедия",
+            "Повседневность",
+            "Романтика",
+            "Школа",
+            "Этти"
+        ],
+        "release": "с 7 октября 2011 по 23 декабря 2011",
+        "studio": [
+            "AIC Build"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29855-kodaka-hasegawa",
+            "https://animego.org/character/29856-sena-kashiwazaki",
+            "https://animego.org/character/29857-yozora-mikazuki"
+        ]
+    },
+    {
+        "title": "Детективы Футо",
+        "synonyms": [
+            "Fuuto Tantei",
+            "Fuuto PI",
+            "風都探偵",
+            "Детективное агентство Футо"
+        ],
+        "slug": "detektivy-futo-2097",
+        "description": "Добро пожаловать в Футо, город ветров, где бесчинствуют загадочные монстры — допанты. Они сеют хаос с помощью опасного устройства, «Памяти Гайи». Но в Фууто есть и герои, которые противостоят допантам и их опасному оружию! Детектив с крутым нравом Сётаро Хидари и его партнер, на редкость умный юноша Филипп, вместе превращаются в Камен Райдера Дабл, легендарного героя Футо, чтобы стоять на страже покоя города!",
+        "rate": "7,9",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62e6d4a43a699049500095.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "4 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Детектив",
+            "Драма",
+            "Полиция",
+            "Сверхъестественное",
+            "Сэйнэн",
+            "Экшен"
+        ],
+        "release": "с 1 августа 2022",
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "25 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29849-yukiji-bandou",
+            "https://animego.org/character/29850-shoutarou-hidari",
+            "https://animego.org/character/29851-akiko-narumi",
+            "https://animego.org/character/29852-philip",
+            "https://animego.org/character/29853-ryuu-terui"
+        ]
+    },
+    {
+        "title": "Моя новая горничная очень подозрительна",
+        "synonyms": [
+            "Saikin Yatotta Maid ga Ayashii",
+            "The Maid I Hired Recently Is Mysterious",
+            "最近雇ったメイドが怪しい",
+            "My Recently Hired Maid is Suspicious"
+        ],
+        "slug": "moya-novaya-gornichnaya-ochen-podozritelna-2096",
+        "description": "Совсем еще юный аристократ Юри подозрителен не по возрасту. Его навязчивое состояние усиливается, когда в дом устраивается новая служанка Лилит: мальчик считает, что очаровательная горничная замышляет за его спиной что-то недоброе. Несмотря на предвзятое отношение своего хозяина, Лилит влюбляется в Юри.",
+        "rate": "7,7",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62dc7a2abc4cd763036243.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "4",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Сёнэн"
+        ],
+        "release": "с 24 июля 2022",
+        "studio": [
+            "Blade",
+            "Silver Link"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29844-lilith",
+            "https://animego.org/character/29845-yuuri"
+        ]
+    },
+    {
+        "title": "Блестящий пост",
+        "synonyms": [
+            "Shine Post",
+            "シャインポスト"
+        ],
+        "slug": "blestyaschiy-post-2095",
+        "description": "У девочек из айдол-группы TiNgS большие мечты, которые, правда, не подкреплены ни музыкальными достижениями, ни популярностью. И вообще, они уже на грани распада. А лучший в мире менеджер, который мог бы их спасти, не заинтересован в работе с TiNgS. Однако под крыло их берёт человек по имени Наосе Хинаки, лишённый всякой мотивации, за зато обладающий особым набором навыков...",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62d7d31653bb0172312914.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "6 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Музыка",
+            "Повседневность",
+            "Сверхъестественное"
+        ],
+        "release": "с 13 июля 2022 по 19 октября 2022",
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "22 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29824-yukine-gionji",
+            "https://animego.org/character/29825-momiji-itou",
+            "https://animego.org/character/29826-haru-nabatame",
+            "https://animego.org/character/29827-rio-seibu",
+            "https://animego.org/character/29828-kyouka-tamaki"
+        ]
+    },
+    {
+        "title": "Прославленный: Маска истины",
+        "synonyms": [
+            "Utawarerumono: Futari no Hakuoro",
+            "Utawarerumono: Mask of Truth",
+            "うたわれるもの 二人の白皇",
+            "Utawarerumono 3"
+        ],
+        "slug": "proslavlennyy-maska-istiny-2094",
+        "description": "Смерть императора ввергает Ямато в хаос. Ошутору, Полководец правой руки, в бегах, и на нём висит обвинение в попытке убийства Её Императорского Высочества Андзю. В сражении с преследователями он был вынужден использовать на полную силу свою маску, акурука, и слиться воедино с окружающим миром. И это стоило ему жизни. Из последних сил он простился со своим другом Хаку и вверил ему на попечение Андзю и Нэконэ, а заодно и свою маску. Хаку принял её и тем самым отказался от своей прежней жизни. Теперь он Ошутору. И вместе с товарищами он бежит в Эннакамуй.",
+        "rate": "7,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62d2fb2f451cf613863164.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "9 28",
+        "status": "Онгоинг",
+        "genres": [
+            "Драма",
+            "Фэнтези",
+            "Экшен"
+        ],
+        "release": "с 3 июля 2022",
+        "studio": [
+            "White Fox"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29784-anju",
+            "https://animego.org/character/29785-haku",
+            "https://animego.org/character/29786-kuon"
+        ]
+    },
+    {
+        "title": "Мастера Меча Онлайн: Прогрессив — Ария в беззвёздной ночи",
+        "synonyms": [
+            "Sword Art Online: Progressive Movie - Hoshi Naki Yoru no Aria",
+            "Sword Art Online the Movie: Progressive - Aria of a Starless Night",
+            "劇場版 ソードアート・オンライン プログレッシブ 星なき夜のアリア",
+            "SAO Progressive Movie",
+            "Aria in the Starless Night",
+            "Hoshinaki Yoru no Aria"
+        ],
+        "slug": "mastera-mecha-onlayn-progressiv-ariya-v-bezzvezdnoy-nochi-2093",
+        "description": "Асуна Юки была лучшей ученицей, усердно готовилась к вступительным экзаменам в старшую школу, но это было до того, как она одолжила у брата игровую систему виртуальной реальности и оказалась в ловушке Sword Art Online вместе с десятью тысячами других напуганных игроков. Проходит время, и Асуна начинает бояться, что станет с её жизнью за пределами фантастического мира. Какой неудачницей она может оказаться в глазах сверстников и родителей. Не желая ждать в сторонке, пока более опытные игроки пройдут игру, Асуна использует свои способности к обучению, чтобы изучить механику игры и владение мечом. Её быстрота впечатляет Кирито, профессионального геймера, который приглашает Асуну присоединиться к лучшим игрокам на передовой. Готова ли Асуна поменять рейтинг класса на рейтинг игрока и присоединиться к Кирито?",
+        "rate": "8,6",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62cf3120e5fe2978650321.jpg",
+        "type": "Фильм",
+        "genres": [
+            "Приключения",
+            "Фэнтези",
+            "Экшен"
+        ],
+        "release": "30 октября 2021",
+        "studio": [
+            "A-1 Pictures Inc."
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "1 ч 37 мин",
+        "main_characters": [
+            "https://animego.org/character/6868-kazuto-kirigaya",
+            "https://animego.org/character/29782-misumi-tozawa",
+            "https://animego.org/character/6870-asuna-yuuki"
+        ]
+    },
+    {
+        "title": "Доктор Стоун: Рюсуй",
+        "synonyms": [
+            "Dr. Stone: Ryuusui",
+            "Dr.STONE 龍水"
+        ],
+        "slug": "doktor-stoun-ryusuy-2092",
+        "description": "Оригинальный эпизод, который послужит связующим звеном между событиями второго и третьего сезонов аниме «Доктор Стоун».",
+        "rate": "9,5",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62ced7556a0e8400225933.jpg",
+        "type": "Спешл",
+        "episodes": "1",
+        "genres": [
+            "Комедия",
+            "Приключения",
+            "Сёнэн",
+            "Фантастика"
+        ],
+        "release": "10 июля 2022",
+        "studio": [
+            "TMS Entertainment"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "1 ч 00 мин",
+        "main_characters": [
+            "https://animego.org/character/17927-gen-asagiri",
+            "https://animego.org/character/17929-chrome",
+            "https://animego.org/character/17928-kohaku",
+            "https://animego.org/character/19509-ryuusui-nanami",
+            "https://animego.org/character/17920-yuzuriha-ogawa"
+        ]
+    },
+    {
+        "title": "Ориент. Часть 2",
+        "synonyms": [
+            "Orient: Awajishima Gekitou-hen",
+            "オリエント 淡路島激闘編",
+            "Orient Part 2"
+        ],
+        "slug": "orient-chast-2-2091",
+        "description": "",
+        "rate": "8,8",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62cc705a79570492620921.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "7 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Сёнэн",
+            "Фэнтези",
+            "Экшен"
+        ],
+        "release": "с 12 июля 2022 по 27 сентября 2022",
+        "studio": [
+            "A.C.G.T."
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/28249-tsugumi-hattori",
+            "https://animego.org/character/28250-kojirou-kanemaki",
+            "https://animego.org/character/28251-musashi"
+        ]
+    },
+    {
+        "title": "Усаги из Уравы",
+        "synonyms": [
+            "Urawa no Usagi-chan",
+            "浦和の調ちゃん"
+        ],
+        "slug": "usagi-iz-uravy-2090",
+        "description": "Шестнадцатилетняя Усаги Такасаго учится в старшей школе Уравы, небольшого городка префектуры Сайтама. Жизнь здесь идёт своим размеренным чередом, люди приветливы, узкие улочки по-своему прекрасны — тысячи мелочей и деталей создают уникальный образ Уравы, придавая городу собственное неповторимое очарование. Усаги Такасаго искренне любит свою малую родину с её тихой провинциальной атмосферой, и всё, о чём она молится, — «ещё об одном таком же прекрасном дне» с верными подругами Минами Оябой и Токивой Камикидзаки.",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62cb3e2c81cf5133081133.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "12",
+        "status": "Вышел",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Школа"
+        ],
+        "release": "с 10 апреля 2015 по 26 июня 2015",
+        "studio": [
+            "A-Real"
+        ],
+        "age_restriction": "16",
+        "duration": "3 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29756-kojika-bessho",
+            "https://animego.org/character/29757-tokiwa-kamikizaki",
+            "https://animego.org/character/29758-misono-mimuro",
+            "https://animego.org/character/29759-saiko-numakage",
+            "https://animego.org/character/29760-minami-ooyaba"
+        ]
+    },
+    {
+        "title": "Мусасино!",
+        "synonyms": [
+            "Musashino!",
+            "Musasi-no",
+            "むさしの！"
+        ],
+        "slug": "musasino-2089",
+        "description": "",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62cb3c076ea83685232815.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Школа"
+        ],
+        "release": "с 2 июля 2022",
+        "studio": [
+            "A-Real"
+        ],
+        "age_restriction": "16",
+        "duration": "3 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29755-azuma-aragami",
+            "https://animego.org/character/29756-kojika-bessho",
+            "https://animego.org/character/29757-tokiwa-kamikizaki",
+            "https://animego.org/character/29758-misono-mimuro",
+            "https://animego.org/character/29759-saiko-numakage"
+        ]
+    },
+    {
+        "title": "Буттигирэ!",
+        "synonyms": [
+            "Bucchigire!",
+            "Shine On! Bakumatsu Bad Boys",
+            "ブッチギレ!",
+            "Сияйте, головорезы Бакумацу!"
+        ],
+        "slug": "buttigire-2088",
+        "description": "Во времена, когда Японией правили самураи, Киото потрясло ужасное событие. Неизвестный смог разом уничтожить всех членов полиции Синсенгуми за исключением одного выжившего. Для поддержания порядка на улицах и выяснения личности убийцы были избраны семь преступников, которым в качестве награды обещано помилование и место в страже Киото. Ввергнут ли они город в хаос или станут его спасителями? На какие жертвы готова пойти шайка отбросов, чтобы заслужить прощение?",
+        "rate": "7,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/630914fbe714d323730335.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Самураи",
+            "Экшен"
+        ],
+        "release": "с 8 июля 2022 по 23 сентября 2022",
+        "studio": [
+            "Geno Studio"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29739-akira",
+            "https://animego.org/character/29740-bou",
+            "https://animego.org/character/29741-gyatarou",
+            "https://animego.org/character/29742-ichibanboshi",
+            "https://animego.org/character/29743-sakuya"
+        ]
+    },
+    {
+        "title": "Чёрный призыватель",
+        "synonyms": [
+            "Kuro no Shoukanshi",
+            "Black Summoner",
+            "黒の召喚士",
+            "The Berserker Rises to Greatness."
+        ],
+        "slug": "chernyy-prizyvatel-2087",
+        "description": "Проснувшись в незнакомом новом месте, герой Келвин узнал, что получил силу и способности. Взамен, однако, ему пришлось отдать воспоминания о прошлой жизни. Став призывателем, герой отправился в новый мир, чтобы творить добро. Его спутницей стала златовласая дева по имени Эфил. Получив новую жизнь и возможности, Келвин пустился в странствия, намереваясь найти дорогу домой. На своём пути он встретит как друзей, так и врагов. Сможет ли Келвин с их помощью вернуть воспоминания?",
+        "rate": "8,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6309151bb1ea9153061615.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8",
+        "status": "Онгоинг",
+        "genres": [
+            "Фэнтези",
+            "Экшен"
+        ],
+        "release": "с 9 июля 2022",
+        "studio": [
+            "Satelight"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29731-efil",
+            "https://animego.org/character/29732-kelvin"
+        ]
+    },
+    {
+        "title": "Новый Принц Тенниса: Чемпионат мира U-17",
+        "synonyms": [
+            "Shin Tennis no Ouji-sama: U-17 World Cup",
+            "The Prince of Tennis II: U-17 World Cup",
+            "新テニスの王子様 U-17 WORLD CUP",
+            "Новый принц тенниса: Юношеский чемпионат мира"
+        ],
+        "slug": "novyy-princ-tennisa-chempionat-mira-u-17-2086",
+        "description": "Когда восходящую звезду тенниса Рёму Этидзэна выгнали из подготовительного лагеря для юниоров за нарушение правил, он впал в отчаяние. Но удача снова улыбнулась ему, подарив возможность сыграть за команду США. Будет непросто пробиться через их ветеранов, чтобы показать себя, но ещё сложнее будет выйти на корт против своих друзей. Поможет ли Рёма своим новым братьям одержать победу?",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/630914cbc6789339687970.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Сёнэн",
+            "Спорт",
+            "Экшен"
+        ],
+        "release": "с 7 июля 2022",
+        "studio": [
+            "M.S.C"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/18879-ryouma-echizen",
+            "https://animego.org/character/18887-kunimitsu-tezuka"
+        ]
+    },
+    {
+        "title": "Созданный в Бездне: Солнце, вспыхнувшее в Золотом городе",
+        "synonyms": [
+            "Made in Abyss: Retsujitsu no Ougonkyou",
+            "Made in Abyss: The Golden City of the Scorching Sun",
+            "メイドインアビス 烈日の黄金郷"
+        ],
+        "slug": "sozdannyy-v-bezdne-solnce-vspyhnuvshee-v-zolotom-gorode-2085",
+        "description": "Второй сезон.",
+        "rate": "9,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c5a4b57cfa1601529074.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Детектив",
+            "Драма",
+            "Приключения",
+            "Фантастика",
+            "Фэнтези"
+        ],
+        "release": "с 6 июля 2022 по 21 сентября 2022",
+        "studio": [
+            "Kinema Citrus"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/3264-nanachi",
+            "https://animego.org/character/3252-reg",
+            "https://animego.org/character/3253-riko"
+        ]
+    },
+    {
+        "title": "Улыбка Арснотории",
+        "synonyms": [
+            "Warau Arsnotoria Sun!",
+            "Smile of the Arsnotoria the Animation",
+            "咲う アルスノトリア すんっ！",
+            "Солнечная улыбка Арснотории!"
+        ],
+        "slug": "ulybka-arsnotorii-2084",
+        "description": "Ашлам, город-академия магии с полным пансионом. Её ученицы, Пентаграммы, стремятся стать настоящими леди, изучая не только школьные предметы и этикет, но и магию. Арснотория, одна из таких девушек, живёт в Общежитии №5 вместе с заводилой Мэлл, молчаливой и живущей в своём темпе Альбертой-младшей, старостой по призванию Пикатрикс и всегда спокойной Абрамелин. Они ходят на уроки, выполняют задания, пьют чай в «своей комнате» после занятий... Наслаждайтесь их весёлой и увлекательной жизнью!",
+        "rate": "6,0",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c5a0545c7f8846509890.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Экшен"
+        ],
+        "release": "с 6 июля 2022 по 21 сентября 2022",
+        "studio": [
+            "LIDEN FILMS"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29679-abramelin",
+            "https://animego.org/character/29680-arsnotoria",
+            "https://animego.org/character/29681-little-alberta",
+            "https://animego.org/character/29682-mell",
+            "https://animego.org/character/29683-picatrix"
+        ]
+    },
+    {
+        "title": "Духи Деко",
+        "synonyms": [
+            "Yurei Deco",
+            "Yurei Deco",
+            "ユーレイデコ",
+            "You0 DECO",
+            "Юрэй Деко"
+        ],
+        "slug": "duhi-deko-2083",
+        "description": "История начинается с того, что Берри, самая обычная девушка, знакомится с Хаком, девочкой, очень похожей на парня. Берри очарована новой знакомой и идёт на встречу с её командой — кружком «Призраков-детективов». Все его участники «мертвы» для общества и незаметно для всех работают в цифровом мире Тома Сойера. Берри присоединяется к ним и узнает о Зеро… таинственном человеке, скрывающемся в подземке Тома Сойера. Вместе с Хаком она решает раскрыть его личность! А затем и приблизиться к тайне, что окутывает город…",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c22623c9b72858538976.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "release": "с 3 июля 2022",
+        "studio": [
+            "Science SARU"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29673-berry",
+            "https://animego.org/character/29674-finn",
+            "https://animego.org/character/29675-hack",
+            "https://animego.org/character/29676-hank",
+            "https://animego.org/character/29677-madam-44"
+        ]
+    },
+    {
+        "title": "Сияющие ведьмы",
+        "synonyms": [
+            "Renmei Kuugun Koukuu Mahou Ongakutai Luminous Witches",
+            "League of Nations Air Force Aviation Magic Band Luminous Witches",
+            "連盟空軍航空魔法音楽隊 ルミナスウィッチーズ",
+            "Allied Air Force Magical Idols Luminous Witches",
+            "Idol Witches",
+            "Ongakutai Witches"
+        ],
+        "slug": "siyayuschie-vedmy-2082",
+        "description": "История поющей эскадрильи ведьм, которая музыкой и песнями поднимает боевой дух для борьбы с инопланетными захватчиками.",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/63091461c0ad4205101490.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "7 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Военное",
+            "Музыка",
+            "Фантастика",
+            "Этти"
+        ],
+        "release": "с 3 июля 2022 по 25 сентября 2022",
+        "studio": [
+            "SHAFT"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия"
+    },
+    {
+        "title": "Вершина!",
+        "synonyms": [
+            "Teppen!!!!!!!!!!!!!!!",
+            "Teppen—!!!!!!!!!!!!!!! Laughing 'til You Cry",
+            "てっぺんっ!!!!!!!!!!!!!!!"
+        ],
+        "slug": "vershina-2081",
+        "description": "",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c1364ad3a8c147741888.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "7 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Повседневность"
+        ],
+        "release": "с 2 июля 2022 по 17 сентября 2022",
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29658-yuzu-hosono",
+            "https://animego.org/character/29659-yayoi-sakamoto",
+            "https://animego.org/character/29660-yomogi-takahashi"
+        ]
+    },
+    {
+        "title": "Песнь ночных сов",
+        "synonyms": [
+            "Yofukashi no Uta",
+            "Call of the Night",
+            "よふかしのうた"
+        ],
+        "slug": "pesn-nochnyh-sov-2080",
+        "description": "Кто совершал ночные прогулки, наверняка, скажет, что они прекрасны. Отсутствие людей, машин и прочих раздражителей, шарм тёмного времени суток и непередаваемое чувство свободы — такая атмосфера никого не оставит равнодушным. Вот и четырнадцатилетний ученик средней школы Ко Ямори, которого мучила бессонница и который поэтому решил выйти прогуляться, был обворожён. Слоняясь по пустым улицам, парень встретил загадочную девушку по имени Надзуна Нанакуса, которая показала мальцу все прелести ночной жизни. Закончились их совместные приключения тем, что вскоре Ко уже делил футон с Надзуной, которая, решив, что паренёк заснул, взяла и укусила его за шею!",
+        "rate": "9,2",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c134548c524021355218.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 13",
+        "status": "Онгоинг",
+        "genres": [
+            "Вампиры",
+            "Романтика",
+            "Сверхъестественное",
+            "Сёнэн"
+        ],
+        "release": "с 8 июля 2022 по 30 сентября 2022",
+        "studio": [
+            "LIDEN FILMS"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "22 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29657-nazuna-nanakusa",
+            "https://animego.org/character/29656-kou-yamori"
+        ]
+    },
+    {
+        "title": "Живая любовь! Суперзвезда!! 2",
+        "synonyms": [
+            "Love Live! Superstar!! 2nd Season",
+            "ラブライブ！スーパースター!!"
+        ],
+        "slug": "zhivaya-lyubov-superzvezda-2-2079",
+        "description": "Второй сезон.",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c132b57e76f186366402.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "6",
+        "status": "Онгоинг",
+        "genres": [
+            "Музыка",
+            "Повседневность",
+            "Школа"
+        ],
+        "release": "с 17 июля 2022",
+        "studio": [
+            "Sunrise"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия"
+    },
+    {
+        "title": "Ликорис Рикоил",
+        "synonyms": [
+            "Lycoris Recoil",
+            "Lycoris Recoil",
+            "リコリス・リコイル"
+        ],
+        "slug": "likoris-rikoil-2078",
+        "description": "Эта история расскажет нам о буднях двух милых девочек. Чисато — жизнерадостная и дружелюбная, а Такину — скромная и замкнутая. У них разные привычки и мировоззрение, однако это не мешает им дружить. Они обе мечтают поступить в колледж и прикладывают все усилия для достижения цели, однако из-за своей наивности часто попадают в нелепые и забавные ситуации.",
+        "rate": "9,1",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62cedcc023bcd075376334.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 13",
+        "status": "Онгоинг",
+        "release": "с 2 июля 2022 по 24 сентября 2022",
+        "studio": [
+            "A-1 Pictures Inc."
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29641-takina-inoue",
+            "https://animego.org/character/29642-chisato-nishikigi"
+        ]
+    },
+    {
+        "title": "Дом теней 2",
+        "synonyms": [
+            "Shadows House 2nd Season",
+            "Shadows House 2nd Season",
+            "シャドーハウス 2nd Season"
+        ],
+        "slug": "dom-teney-2-2077",
+        "description": "В огромном трёхэтажном особняке проживает загадочное семейство Шедоу. Эти таинственные аристократы с ног до головы покрыты сажей, поэтому у них нет лиц. Для решения этой проблемы каждому члену семьи прислуживает так называемая «живая кукла», которая не только выполняет функцию «лица», но и поддерживает чистоту, постоянно убирая сажу, которую испускает хозяин.Эмилико — маленькая, но отнюдь не хрупкая девчушка, которая является такой куклой и прислуживает Кейт Шедоу. Хоть Эмилико ещё совсем юна и неопытна, но она делает всё, чтобы не ударить в грязь лицом, попутно стараясь подружиться со своей госпожой Кейт и другими куклами.",
+        "rate": "9,2",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c07836d4d3c858413481.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Повседневность",
+            "Сверхъестественное",
+            "Сэйнэн"
+        ],
+        "release": "с 9 июля 2022 по 24 сентября 2022",
+        "studio": [
+            "CloverWorks"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/24971-emilico",
+            "https://animego.org/character/24972-kate"
+        ]
+    },
+    {
+        "title": "Удар! Гол в будущее",
+        "synonyms": [
+            "Shoot! Goal to the Future",
+            "Shoot! Goal to the Future",
+            "シュート! Goal to the Future"
+        ],
+        "slug": "udar-gol-v-buduschee-2076",
+        "description": "Ацуси Камия, выпускник Какэгавы и прославленный футболист, возвращается в родную школу в качестве тренера. Хидэто завязал с некогда любимой игрой и с жалость смотрит на нынешнюю школьную команду. Их встреча ознаменует рождение новой легенды.",
+        "rate": "6,2",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c0676027d3a731248389.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 13",
+        "status": "Онгоинг",
+        "genres": [
+            "Сёнэн",
+            "Спорт"
+        ],
+        "release": "с 2 июля 2022 по 24 сентября 2022",
+        "studio": [
+            "EMT²",
+            "Magic Bus"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29617-atsushi-kamiya",
+            "https://animego.org/character/29618-jou-kazama",
+            "https://animego.org/character/29619-kouhei-kokubo",
+            "https://animego.org/character/29620-yoshiharu-kubo",
+            "https://animego.org/character/29621-subaru-kurokawa"
+        ]
+    },
+    {
+        "title": "Дочь моей мачехи — моя бывшая девушка",
+        "synonyms": [
+            "Mamahaha no Tsurego ga Motokano datta",
+            "My Stepmom's Daughter Is My Ex",
+            "継母の連れ子が元カノだった",
+            "My Stepsister is My Ex-Girlfriend",
+            "Tsurekano",
+            "Моя сводная сестра — моя бывшая"
+        ],
+        "slug": "doch-moey-machehi-moya-byvshaya-devushka-2075",
+        "description": "Это история о парне и девушке, которые влюбились друг в друга ещё в средней школе. Но вскоре их любовь превратилась во взаимное раздражение, что привело к их расставанию после окончания школы. Но кто бы мог подумать, что судьбы Иридо Мидзуто и Айя Юмэ пересекутся вновь в самых неожиданных для них обстоятельствах? Теперь они вынуждены жить под одной крышей, изображая для своих родителей сводных брата и сестру.Но, оставаясь наедине и предаваясь воспоминаниям о прошлом, смогут ли они сдержать свой соблазн?!",
+        "rate": "8,5",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c0293330765764682579.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Романтика"
+        ],
+        "release": "с 6 июля 2022 по 21 сентября 2022",
+        "studio": [
+            "Project No.9"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29616-yume-irido",
+            "https://animego.org/character/29615-mizuto-irido"
+        ]
+    },
+    {
+        "title": "Фармацевт из параллельного мира",
+        "synonyms": [
+            "Isekai Yakkyoku",
+            "Parallel World Pharmacy",
+            "異世界薬局",
+            "Alternate World Pharmacy",
+            "Аптека в другом мире"
+        ],
+        "slug": "farmacevt-iz-parallelnogo-mira-2074",
+        "description": "Иногда даже горькие события приводят к появлению чего-то очень хорошего. Так, смерть младшей сестры от неизлечимой болезни подвигла Кандзи Якутани на то, чтобы посвятить жизнь изобретению лекарств, которые спасли бы людей. Однако в возрасте 31 года Кандзи умер от переутомления, после чего очнулся в другом мире в теле десятилетнего мальчика по имени Фальма де Медисис. Оказалось, что это не просто обычный мальчик, а аристократ, сын известного фармацевта, который к тому же обладает магией. После перемещения новоиспечённый Фальма обнаружил, что может не только управлять водой, как первоначальный владелец тела, но и способен создавать и уничтожать различные субстанции, а также диагностировать болезни.Выяснив, что его новый мир больше всего напоминает европейское средневековье, что медицина основывается не на научном подходе, а на суевериях, астрологии и божественном провидении, Фальма решает создать собственную аптеку и реформировать систему здравоохранения в империи, сделав так, чтобы эффективные лекарства стали доступными для всех!",
+        "rate": "9,0",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/630915171582f753073006.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "7 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Фэнтези"
+        ],
+        "release": "с 10 июля 2022 по 25 сентября 2022",
+        "studio": [
+            "Diomedea"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29601-eleonora-bonnefoy",
+            "https://animego.org/character/29602-falma-de-medicis",
+            "https://animego.org/character/29603-charlotte"
+        ]
+    },
+    {
+        "title": "Ублюдок!! Сокрушитель тьмы ONA",
+        "synonyms": [
+            "Bastard!! Ankoku no Hakaishin (ONA)",
+            "BASTARD‼ Heavy Metal, Dark Fantasy",
+            "BASTARD!! -暗黒の破壊神-"
+        ],
+        "slug": "ublyudok-sokrushitel-tmy-ona-2073",
+        "description": "Некогда человечество отказалось от науки в пользу магии и оккультизма. История разворачивается вокруг группы из пяти магов, собирающихся восстановить свой мир, когда-то погружённый в хаос и почти полностью разрушенный разбушевавшимся богом. Ведомые своим лидером Дарк Шнайдером, Гара, Аршес Ней, Абигейл и Калл-Су намереваются завоевать все существующие королевства, одно за другим, в надежде построить утопический мир. При этом у каждого из них свои причины для этого. Впрочем, безрассудное поведение и вспыльчивый характер Дарк Шнайдера приводит к тому, что он приносит разрушение всюду, куда бы ни пошёл. В результате, он попадает в ловушку, подстроенную группой священников, и они запечатывают его в теле ребёнка, Луша Рэнрэна, оставив остальных четырёх магов без своего лидера. Пятнадцать лет спустя четверо магов снова начинают захват королевств, однако теперь их цель сводится к деспотичной власти над всем миром. Некогда поймавшие Дарк Шнайдера священники освобождают его, ведь только он сможет защитить их королевство от своих бывших товарищей. Теперь Дарк Шнайдеру предстоит выследить каждого из них и вернуть их всех на путь истинный, ведь и сам некогда безрассудный и аморальный Дарк Шнайдер изменился за пятнадцать лет заключения...",
+        "rate": "7,3",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62bec8879bdf3705841773.jpg",
+        "type": "ONA",
+        "episodes": "13",
+        "genres": [
+            "Комедия",
+            "Приключения",
+            "Сэйнэн",
+            "Фэнтези",
+            "Экшен",
+            "Этти"
+        ],
+        "release": "30 июня 2022",
+        "studio": [
+            "LIDEN FILMS"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29589-dark-schneider",
+            "https://animego.org/character/29590-tia-noto-yoko"
+        ]
+    },
+    {
+        "title": "Перестану быть героем: Спецвыпуски",
+        "synonyms": [
+            "Yuusha, Yamemasu: Kenshuu Ryokou wa Mokuteki wo Miushinau na",
+            "I'm Quitting Heroing: Remember, the Work Trip is First and Foremost a Learning Opportunity",
+            "勇者、辞めます「研修旅行は目的を見失うな」",
+            "I'm Quitting Heroing: Don't Lose Sight of Why We Took This Research Trip"
+        ],
+        "slug": "perestanu-byt-geroem-specvypuski-2072",
+        "description": "Новая анимация, состоящая из двух частей, выпущенная на Blu-ray/DVD.",
+        "rate": "8,1",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62bc24308bf11595748994.jpg",
+        "type": "Спешл",
+        "episodes": "2",
+        "status": "Вышел",
+        "genres": [
+            "Комедия",
+            "Приключения",
+            "Фэнтези",
+            "Экшен"
+        ],
+        "release": "с 24 июня 2022 по 24 августа 2022",
+        "studio": [
+            "EMT²"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "15 мин серия"
+    },
+    {
+        "title": "Маленькие проказники! Ещё раз",
+        "synonyms": [
+            "Little Busters!: Refrain",
+            "Little Busters! ~Refrain~",
+            "リトルバスターズ！～Refrain～",
+            "LB!: Refrain"
+        ],
+        "slug": "malenkie-prokazniki-esche-raz-2071",
+        "description": "Компания друзей детства, известная в школьных кругах под названием «Маленькие проказники», активно придумывает различные забавы, участвует в интересных аферах и приключениях. Их добрые деяния не остаются незамеченными, и ряды группы регулярно пополняются незаурядными ребятами. Правда, есть один минус: заводила и лидер группы Кёсукэ Нацумэ скоро должен выпуститься из школы и покинуть компанию. Понимая это, он решил немного отдалиться от коллектива и оставить вместо себя не самого крепкого, но умного и рассудительного парня по имени Рики Наоэ. Новый лидер переживает с друзьями череду приключений, после которых осознает, что с окружающим миром что-то не так. Что все не так, как должно быть!Мирная пора в жизни любящих веселье студентов школы-интерната длилась не так долго, как им хотелось бы. Рики погружается в омут загадочных событий, что происходили в кампусе их школы, и это заметно влияет на него, заставляя задуматься о будущем. Все хорошее имеет свойство рано или поздно заканчиваться. Так и «Маленькие проказники», к сожалению, не станут исключением из этого правила. Но что ни говори, а их группа еще покажет, чего она может достичь!",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b9a4511dd26274699505.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "13",
+        "status": "Вышел",
+        "genres": [
+            "Драма",
+            "Комедия",
+            "Повседневность",
+            "Романтика",
+            "Сверхъестественное",
+            "Школа"
+        ],
+        "release": "с 5 октября 2013 по 28 декабря 2013",
+        "studio": [
+            "J.C. Staff"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/28299-masato-inohara",
+            "https://animego.org/character/28315-kengo-miyazawa",
+            "https://animego.org/character/28303-riki-naoe",
+            "https://animego.org/character/28305-rin-natsume",
+            "https://animego.org/character/28304-kyousuke-natsume"
+        ]
+    },
+    {
+        "title": "Маленькие проказники!",
+        "synonyms": [
+            "Little Busters!",
+            "Little Busters!",
+            "リトルバスターズ!",
+            "LB!"
+        ],
+        "slug": "malenkie-prokazniki-2070",
+        "description": "Возвращение в школу-интернат всеобщего любимца Кёсукэ Нацумэ спровоцировало переполох среди учащихся. Еще бы! При каждом своем появлении таинственный, вечно исчезающий выпускник становится катализатором невероятных событий, которые не дают окружающим заскучать. Особенно радостно парень был встречен своей командой: Рики, Масато, Кэнго и младшей сестрой Кёсукэ – Рин. С самого детства эта команда носит гордое название «Маленькие проказники». Они всегда готовы защищать справедливость и развлекаться, даже если их действия могут изрядно напрягать окружающих. Так и в этот раз. Вскоре предстоит расставание после окончания школы, и лидер группы решил, что надо развеяться. Он объявил, что скоро «Маленькие проказники» сформируют собственную бейсбольную команду!Под аккомпанемент школьных сплетен ребята начинают поиск дополнительных игроков. Кёсукэ настоял, что это должны быть девушки. В ходе тренировок ребята взрослеют и сближаются. Перед уходом Кёсукэ хочет удостовериться, что его наследие не канет в Лету и слава о похождениях его команды останется на долгие годы. Пока неизвестно, что выйдет из этой затеи, но скучать их дружной команде явно не придется.",
+        "rate": "8,0",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b9a2bc56b53186039919.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "26",
+        "status": "Вышел",
+        "genres": [
+            "Драма",
+            "Комедия",
+            "Повседневность",
+            "Сверхъестественное",
+            "Школа"
+        ],
+        "release": "с 6 октября 2012 по 6 апреля 2013",
+        "studio": [
+            "J.C. Staff"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/28299-masato-inohara",
+            "https://animego.org/character/28306-kudryavka-noumi",
+            "https://animego.org/character/28316-mio-nishizono",
+            "https://animego.org/character/28304-kyousuke-natsume",
+            "https://animego.org/character/28305-rin-natsume"
+        ]
+    },
+    {
+        "title": "Жизнь перерождённого мудреца в другом мире. Получение второй профессии и становление сильнейшим",
+        "synonyms": [
+            "Tensei Kenja no Isekai Life: Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita",
+            "My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World",
+            "転生賢者の異世界ライフ ～第二の職業を得て、世界最強になりました～",
+            "Tensei Kenjya no Isekai Life"
+        ],
+        "slug": "zhizn-pererozhdennogo-mudreca-v-drugom-mire-poluchenie-vtoroy-professii-i-stanovlenie-silneyshim-2069",
+        "description": "Заканчивая дома работу, сотрудник «чёрной» компании Сано Юдзи оказался призван в другой мир. Там он получил профессию укротителя монстров, считающуюся у местных неподходящей для авантюриста. Но благодаря знакомству со слизнями, которые прочитали несколько магических книг, он обрёл магическую силу и вторую профессию — мудрец. Вот так Юдзи встал на путь, который сделает его непревзойденным и сильнейшим в мире!",
+        "rate": "6,8",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/630914f74c72a110913440.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "9 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Приключения",
+            "Фэнтези",
+            "Экшен"
+        ],
+        "release": "с 4 июля 2022 по 12 сентября 2022",
+        "studio": [
+            "REVOROOT"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29551-dryad",
+            "https://animego.org/character/29552-proud-wolf",
+            "https://animego.org/character/29553-yuuji-sano"
+        ]
+    },
+    {
+        "title": "Вампир в саду",
+        "synonyms": [
+            "Vampire in the Garden",
+            "Vampire in the Garden",
+            "ヴァンパイヤ・イン・ザ・ガーデン"
+        ],
+        "slug": "vampir-v-sadu-2068",
+        "description": "В кровопролитной войне против вампиров человечество утратило своё господство над миром и вынуждено вести жалкое существование. Маленький город-государство, защищенный специальными прожекторами, стал одним из последних оплотов человеческой расы. Его лидеры полны решимости вернуть контроль над миром, который они потеряли.В гнетущих городских стенах юная Момо, напротив, мечтает о мирном сосуществовании с заклятыми врагами. О том же мечтает и наследная королева вампиров Файн, которая верит, что есть райский уголок, в котором люди с вампирами могут жить в мире и гармонии. В результате судьбоносной встречи девушки отправляются на поиски легендарного «Эдема».",
+        "rate": "8,3",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b73de391aab772764158.jpg",
+        "type": "ONA",
+        "episodes": "5",
+        "release": "16 мая 2022",
+        "studio": [
+            "Wit Studio"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "26 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29545-fiine",
+            "https://animego.org/character/29546-momo"
+        ]
+    },
+    {
+        "title": "Гарем рабов в лабиринте другого мира",
+        "synonyms": [
+            "Isekai Meikyuu de Harem wo",
+            "Harem in the Labyrinth of Another World",
+            "異世界迷宮でハーレムを",
+            "A Harem in a Fantasy World Labyrinth",
+            "Гарем в лабиринте другого мира"
+        ],
+        "slug": "garem-rabov-v-labirinte-drugogo-mira-2067",
+        "description": "Юноша, собравшийся совершить самоубийство, решил поискать способ умереть в Интернете, но вместо этого он нашел странный сайт, на котором было много вопросов и система очков, позволяющая задать навыки и способности персонажу. Он заинтересовался. Когда он закончил настраивать своего персонажа, вылезло сообщение: «Теперь Вас отправят в мир с выбранными Вами настройками, возвращение невозможно, вы всё ещё согласны?»Парень не раздумывая нажал [ДА] и оказался в другом мире с навыками, которые выбрал.",
+        "rate": "7,8",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/630914f210f02006417096.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Приключения",
+            "Романтика",
+            "Фэнтези",
+            "Экшен",
+            "Этти"
+        ],
+        "release": "с 6 июля 2022 по 21 сентября 2022",
+        "studio": [
+            "Passione"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29534-michio-kaga",
+            "https://animego.org/character/29533-miria",
+            "https://animego.org/character/29532-roxanne",
+            "https://animego.org/character/29531-seri",
+            "https://animego.org/character/29725-vesta"
+        ]
+    },
+    {
+        "title": "Убей или умри",
+        "synonyms": [
+            "Kill la Kill",
+            "Kill la Kill",
+            "キルラキル",
+            "KLK",
+            "Dressed to Kill",
+            "Круши, кромсай",
+            "Убить или быть убитым"
+        ],
+        "slug": "ubey-ili-umri-2066",
+        "description": "Сверхтехнологическая Академия Истины является гибридом роскошного университета и жестокой детской колонии. Ею вместе с прилегающим городком управляет род семьи Кирюин, который владеет технологией особых «боевых волокон». Эти волокна позволяют делать из людей суперсолдат, не знающих слабостей. Они активно используются в изготовлении школьной формы для учеников академии. Самый простой её тип, который предназначен для дружинников, носит название однозвездный. Более мощная двухзвездная изготавливается для глав спортивных клубов. А максимально опасный трехзвездный тип могут себе позволить носить лишь члены Совета, над которыми стоит «богиня» академии Сацуки Кирюин.Одна из учениц Академии Истины по имени Рюко Матой желает найти человека, убившего ее отца. Чтобы разузнать детали преступления, она бросает вызов Сацуки – главному авторитету школы, которая знает обо всем, что происходит в её пределах. Единственными уликами дела стали красный клинок, по форме напоминающий половинку ножниц, и суперкостюм, обладающий собственным интеллектом. Рюко намерена пройти через все испытания ради разоблачения убийцы. Ни авторитет вышестоящих учеников, ни множественные преграды не смогут помешать ей найти ответы. Ради них она готова пойти на что угодно!",
+        "rate": "8,9",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b62e71ea9ac733125758.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "24",
+        "status": "Вышел",
+        "genres": [
+            "Комедия",
+            "Супер",
+            "сила",
+            "Школа",
+            "Экшен",
+            "Этти"
+        ],
+        "release": "с 4 октября 2013 по 28 марта 2014",
+        "studio": [
+            "Trigger"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29488-satsuki-kiryuuin",
+            "https://animego.org/character/29489-mako-mankanshoku",
+            "https://animego.org/character/29490-ryuuko-matoi",
+            "https://animego.org/character/29491-senketsu"
+        ]
+    },
+    {
+        "title": "Повелитель тьмы на подработке! 2",
+        "synonyms": [
+            "Hataraku Maou-sama!!",
+            "The Devil is a Part-Timer! Season 2",
+            "はたらく魔王さま！！",
+            "The Devil is a Part-Timer! 2nd Season",
+            "The Devil is a Part-Timer!!",
+            "Сатана на подработке! 2"
+        ],
+        "slug": "povelitel-tmy-na-podrabotke-2-2065",
+        "description": "Второй сезон.",
+        "rate": "8,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b5f3269993c161633507.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "7 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Демоны",
+            "Комедия",
+            "Романтика",
+            "Сверхъестественное",
+            "Фэнтези"
+        ],
+        "release": "с 14 июля 2022 по 29 сентября 2022",
+        "studio": [
+            "Studio 3Hz"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/21613-shirou-ashiya",
+            "https://animego.org/character/21614-sadao-maou",
+            "https://animego.org/character/21616-emi-yusa"
+        ]
+    },
+    {
+        "title": "Серебряная ложка 2",
+        "synonyms": [
+            "Gin no Saji 2nd Season",
+            "Silver Spoon 2nd Season",
+            "銀の匙"
+        ],
+        "slug": "serebryanaya-lozhka-2-2064",
+        "description": "Поступив в сельскохозяйственную школу Эдзо, молодой Юго Хатикен заметно повзрослел. Из городского парня он стал надежным другом и упорным студентом, который учится и работает. Увлекшись конным спортом и приложив немалые усилия, Юго заработал уважение среди деревенских ребят острова Хоккайдо и получил пост вице-президента школьного клуба верховой езды. Дела парня налаживаются и на романтическом фронте. Обретя уверенность в себе, он начинает строить отношения с симпатичной одноклассницей и подругой по клубу Аки Микагэ. Девушка становится для него наставником по верховой езде и обучает основам правильного поведения с лошадьми.Общаясь со своими новыми школьными друзьями, Хатикэн осознает, что дети фермеров гораздо раньше сталкиваются с проблемами взрослой жизни, чем городские. Поэтому они знают себе цену, уважают тяжкий труд и умеют по-настоящему веселиться. Жизнь в сельскохозяйственной школе далеко не сказка, она требует упорства. Ребята соперничают, ссорятся, мирятся, всегда помогают друг другу. Проходя обучение в этой школе, юный Хатикен находит настоящего себя и выстраивает собственный, не зависимый от желаний родителей жизненный путь.",
+        "rate": "9,1",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b43ee39c20a166279128.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "11",
+        "status": "Вышел",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Сёнэн",
+            "Школа"
+        ],
+        "release": "с 10 января 2014 по 28 марта 2014",
+        "studio": [
+            "A-1 Pictures Inc."
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29417-yuugo-hachiken",
+            "https://animego.org/character/29418-aki-mikage"
+        ]
+    },
+    {
+        "title": "Серебряная ложка",
+        "synonyms": [
+            "Gin no Saji",
+            "Silver Spoon",
+            "銀の匙"
+        ],
+        "slug": "serebryanaya-lozhka-2063",
+        "description": "Юный Юго Хатикен окончил частную академию и готовился поступить в престижную старшую школу, которую рекомендовал отец. К сожалению, парень завалил вступительные экзамены. Ему приходится искать альтернативное учебное заведение с более простой программой, где не мучают с чтением зарубежной литературы и дают возможность спокойно подготовиться к вузовским экзаменам. И еще – чтобы избежать родительского контроля, желательно общежитие.Юго выбирает сельскохозяйственную школу Эдзо. Парень в своих мечтах представлял обучение в таком заведении как сон на зеленой траве и медитации на молодые посевы. Однако после первого дня занятий грезы подростка начали таять на глазах.Новая среда оказалась для городского парнишки крайне непривычной. Деревенские ребята – работящие, встают рано, все время в заботах. Это вызвало у не привыкшего к труду Хатикена шок, ведь он привык больше отдыхать, чем работать. Но постепенно, вливаясь в новую компанию, он начинает ценить честность, искренность и упорство простых сельских людей. Парень осознает важность труда и, желая по-настоящему повзрослеть и возмужать, пытается осваивать азы сельского хозяйства.",
+        "rate": "8,8",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b43c2786808921830855.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "11",
+        "status": "Вышел",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Сёнэн",
+            "Школа"
+        ],
+        "release": "с 12 июля 2013 по 20 сентября 2013",
+        "studio": [
+            "A-1 Pictures Inc."
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29417-yuugo-hachiken",
+            "https://animego.org/character/29418-aki-mikage"
+        ]
+    },
+    {
+        "title": "Радуга: Семеро из шестой камеры",
+        "synonyms": [
+            "Rainbow: Nisha Rokubou no Shichinin",
+            "Rainbow",
+            "RAINBOW 二舎六房の七人",
+            "Rainbow: Criminal Seven of Compound Two Cell Six",
+            "Радуга: Семеро из шестой камеры второго блока"
+        ],
+        "slug": "raduga-semero-iz-shestoy-kamery-2062",
+        "description": "После Второй Мировой войны в Японии настали сложные времена. В стране бушевали конфликты, разруха и хаос. Для подъема обедневшей экономики в 1955 году правительству страны приходиться ужесточить меры по борьбе с преступностью и насилием. Чтобы отбить у молодежи желание вести преступную жизнь и заниматься разбоем, создаются особые колонии строгого режима. В одну из таких колоний под названием «Сёнана» по разным обвинениям попадает группа подростков 16-17 лет, отзывающихся на клички Джо, Марио, Солдат, Голяк, Капуста и Черепаха.Вытерпев издевательства охранников и тюремного доктора, юноши попадают в камеру, где сразу принимаются выстраивать иерархию власти «по понятиям». Однако этому процессу помешал старший сокамерник – крепкий и умный студент по фамилии Сакураги. Он объяснял новеньким, что жизнь по обе стороны решетки должна быть спокойной, и не стоит играть в детские игры с разделением власти. Сакураги сказал, что ребята обязаны поддерживать друг друга, не бояться встать на защиту и стойко переносить все сложности. Подростки приняли наставления «старшего брата» и следовали им даже после выхода на свободу.",
+        "rate": "9,3",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b39564adbcf150878743.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "26",
+        "status": "Вышел",
+        "genres": [
+            "Драма",
+            "Исторический",
+            "Сэйнэн",
+            "Триллер"
+        ],
+        "release": "с 7 апреля 2010 по 29 сентября 2010",
+        "studio": [
+            "Madhouse Studios"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "22 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29401-noboru-maeda",
+            "https://animego.org/character/29402-mansaku-matsuura",
+            "https://animego.org/character/29403-mario-minakami",
+            "https://animego.org/character/29404-ryuuji-nomoto",
+            "https://animego.org/character/29405-rokurouta-sakuragi"
+        ]
+    },
+    {
+        "title": "Иная: Другая — Судьба",
+        "synonyms": [
+            "Another: The Other - Inga",
+            "Another: The Other",
+            "アナザー The Other -因果-",
+            "Another 00",
+            "Another: The Other -Inga-",
+            "Another OAD",
+            "Another OVA"
+        ],
+        "slug": "inaya-drugaya-sudba-2061",
+        "description": "Экранизация нулевого тома манги, который поведает предысторию главной героини и её сестры. В детстве они были разлучены по семейным обстоятельствам. Затем судьба снова сводит их вместе. Живя обычной школьной жизнью, девочки не подозревают, какая страшная беда их ожидает. Это рассказ о первой жертве проклятия класса 3-3.",
+        "rate": "8,6",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b18cd79cee3298069997.jpg",
+        "type": "OVA",
+        "episodes": "1",
+        "genres": [
+            "Детектив",
+            "Триллер",
+            "Ужасы"
+        ],
+        "release": "26 мая 2012",
+        "studio": [
+            "P.A. Works"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "24 мин",
+        "main_characters": [
+            "https://animego.org/character/29340-misaki-fujioka",
+            "https://animego.org/character/29331-mei-misaki"
+        ]
+    },
+    {
+        "title": "Иная",
+        "synonyms": [
+            "Another",
+            "Another",
+            "アナザー",
+            "Другая"
+        ],
+        "slug": "inaya-2060",
+        "description": "Коити Сакакибара был обычным подростком без особых заслуг и достижений. Его мама рано умерла, а отец все время проводил в дальних экспедициях. Без родительского присмотра и хороших условий проживания у парня развилась болезнь легких. Он начал чахнуть в грязном и загазованном Токио. Для более комфортной жизни мальчику пришлось переехать в провинциальный городок Ёмияма, где жила родня его матери.Тётушка Рэйко начала говорить племяннику, что ему лучше не высовываться в новой школе и не отрываться от коллектива. Коити был удивлен таким наставлениям, но его это устраивало. Однако, попав в школу, мальчик почувствовал, что в его новом девятом «В» классе очень странная, давящая и нездоровая обстановка.Более 20 лет назад в этом классе училась добрая и общительная девочка по имени Мисаки. Она погибла при неизвестных обстоятельствах, и подробности тех событий до сих пор никому неизвестны. Почему-то все вокруг отрицали ее смерть, и с тех самых пор последнее место левого ряда в 9-м «В» классе остается незанятым. Однако столичный гость не знал этой истории и первым делом поприветствовал тихую девочку с повязкой на глазу. Это вызвало шок у окружающих, после чего они стали подозрительно относиться к чужаку. Коити, пытаясь понять причины происходящего, узнал от своей новой знакомой, что все дело в том, что её зовут Мэй Мисаки!",
+        "rate": "8,5",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b1898089fd3370117992.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "12",
+        "status": "Вышел",
+        "genres": [
+            "Детектив",
+            "Сверхъестественное",
+            "Триллер",
+            "Ужасы",
+            "Школа"
+        ],
+        "release": "с 10 января 2012 по 27 марта 2012",
+        "studio": [
+            "P.A. Works"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29331-mei-misaki",
+            "https://animego.org/character/29332-kouichi-sakakibara"
+        ]
+    },
+    {
+        "title": "Золотая пора",
+        "synonyms": [
+            "Golden Time",
+            "Golden Time",
+            "ゴールデンタイム",
+            "Золотое время"
+        ],
+        "slug": "zolotoe-vremya-2059",
+        "description": "Тихий и ничем не выделяющийся парень из глубинки по имени Банри Тада поступает на юридический факультет частного университета в Токио. Там он знакомится с высоким и симпатичным студентом Мицуо Янагисавой, который оказался хорошим другом и собеседником для Банри. Однако очень скоро наш герой узнает о проблеме нового приятеля – его со школьных времен преследует красавица Коко Кага, мечтающая выйти за Мицуо замуж. Вместо изучения основ права Янагисаве приходится скрываться от девушки, прося Таду прикрывать его. Банри, будучи простым и добродушным юношей, увидел, что Токо неплохая девушка, потому решил помочь им обоим. Чего не сделаешь ради друга! Тада захотел узнать причины столь сильного интереса Коко к Янагисаве. Красота, ум и решительность девушки не заставили его отступить. Кага, недолго думая, тоже решила пойти навстречу, ведь так она могла получить шанс выйти через парня на своего любимого Мицуо. Слово за слово, и ребят затянула бушующая весна студенчества. В жизни героев начинается золотая пора, когда все проблемы кажутся незначительными, а молодые сердца наполняются задором и тягой к романтическим приключениям.",
+        "rate": "9,0",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62b0cadf83867643999575.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "24",
+        "status": "Вышел",
+        "genres": [
+            "Драма",
+            "Комедия",
+            "Романтика"
+        ],
+        "release": "с 4 октября 2013 по 28 марта 2014",
+        "studio": [
+            "J.C. Staff"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29312-nana-hayashida",
+            "https://animego.org/character/29313-kouko-kaga",
+            "https://animego.org/character/29314-banri-tada",
+            "https://animego.org/character/29315-mitsuo-yanagisawa"
+        ]
+    },
+    {
+        "title": "Перерождение Дяди",
+        "synonyms": [
+            "Isekai Ojisan",
+            "Uncle from Another World",
+            "異世界おじさん",
+            "Isekai Uncle",
+            "Ojisan in Another World"
+        ],
+        "slug": "pererozhdenie-dyadi-2058",
+        "description": "Кто же не мечтает хоть разок побывать в ином мире, наполненном магией и дивными существами?! Хотя обычный семнадцатилетний паренёк Сибасаки всерьёз об этом не задумывался, именно ему судьба решила предоставить такой шанс. Условия «перемещения», правда, оказались не совсем приятными, но с многотонным грузовиком не поспоришь. На долгие годы тело Сибасаки погрузилось в кому, а его сознание забросило в другой мир, где его приняли за орка и неустанно преследовали.Прошло столько лет, что родные уже и не чаяли, что Сибасаки очнётся, но тот вдруг пришёл в себя и заговорил на странном языке, утверждая, что владеет магией. Разумеется, его приняли за сумасшедшего, и только племянник не отвернулся от дяди. В очередной раз навестив того в больнице, Такафуми собственными глазами узрел, как дядя управляет огнём и перемещает предметы по воздуху. В таких обстоятельствах было сложно не поверить в историю о другом мире.Теперь Сибасаки предстоит восполнить годы, проведённые в коме, и с помощью племянника познакомиться с «чудесами» современного мира, такими, как интернет, смартфон и игровые консоли, и, конечно, посмотреть кучу вышедшего за это время аниме!",
+        "rate": "9,3",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/630914bd32ac3445543203.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "6",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Фэнтези"
+        ],
+        "release": "с 6 июля 2022",
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29311-ojisan",
+            "https://animego.org/character/29310-takafumi"
+        ]
+    },
+    {
+        "title": "Повелитель 4",
+        "synonyms": [
+            "Overlord IV",
+            "Overlord IV",
+            "オーバーロード IV",
+            "Владыка 4"
+        ],
+        "slug": "povelitel-4-2057",
+        "description": "Четвертый сезон.",
+        "rate": "9,5",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62aa3f1133042646589172.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 13",
+        "status": "Онгоинг",
+        "genres": [
+            "Игры",
+            "Сверхъестественное",
+            "Фэнтези",
+            "Экшен"
+        ],
+        "release": "с 5 июля 2022 по 27 сентября 2022",
+        "studio": [
+            "Madhouse Studios"
+        ],
+        "mpaa_rate": "NC 17",
+        "age_restriction": "18",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/1722-albedo",
+            "https://animego.org/character/1721-momonga"
+        ]
+    },
+    {
+        "title": "Серебряный лис",
+        "synonyms": [
+            "Gingitsune",
+            "Gingitsune: Messenger Fox of the Gods",
+            "ぎんぎつね",
+            "Silver Fox"
+        ],
+        "slug": "serebryanyy-lis-2056",
+        "description": "После того как старшеклассница Макото Саэки осиротела, ей пришлось заменить покойную мать на посту жрицы храма, получив в помощники лиса-оборотня Гинтаро. Девочка с помощью духа-хранителя быстро осваивает новые обязанности, попутно решая проблемы общины и своего напарника. Её рейтинг жрицы все еще не впечатляет окружающих, но опыт, знания и социальный вес приходят по мере роста удачного решения проблем.Смена ролей: от беззаботной школьницы к почитаемой жрице, исполняющей скучные ритуалы, не нравится Макото. С другой стороны помощь Гинтаро в предсказаниях позволила девочке обрести популярность в школе и городке. Ситуация еще улучшилась после появления в храме другого жреца – Сатору. Он не старше Макото и работает в паре с симпатичной лисичкой-духом Хаару. Так, Макота и Гинтару завели верных друзей и с новыми силами принялись за работу в храме, теперь уже всей шумной компанией.",
+        "rate": "8,7",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62a9b692d35f7143187517.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "12",
+        "status": "Вышел",
+        "genres": [
+            "Повседневность",
+            "Сверхъестественное",
+            "Сэйнэн"
+        ],
+        "release": "с 7 октября 2013 по 23 декабря 2013",
+        "studio": [
+            "Diomedea"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29266-gintarou",
+            "https://animego.org/character/29267-satoru-kamio",
+            "https://animego.org/character/29268-makoto-saeki"
+        ]
+    },
+    {
+        "title": "Клуб добрых дел",
+        "synonyms": [
+            "GJ-bu",
+            "GJ Club",
+            "GJ部",
+            "Good Job-bu"
+        ],
+        "slug": "klub-dobryh-del-2055",
+        "description": "В одной японской старшей школе есть некий «Клуб добрых дел». В нем состоит парень по имени Кёя Синомия и 4 его неординарных подруги, которых он вынужден развлекать. Первая – шумная малышка, по совместительству президент клуба, Мао Амацука, всегда попадает в различные неприятности, в чём почему-то винит именно Кёю. Вторая – её младшая сестра, спокойная и мирная хозяюшка Мэгуми, которая также имеет свои секреты. Третья – невероятный интеллектуальный гений Сион Сумэраги, имеющая некие проблемы в понимании размеренной повседневной жизни. И четвертая – гостья из Канады по имени Клара Бернштейн. Она обожает мясо, а также понимает кошачий язык и может общаться с котиками. Что могло объединить всех этих разных героев? Несомненно, невероятная сила аниме, веселья и настоящей дружбы!Главным добрым делом для наших членов клуба является борьба со скукой, чему они посвящают большую часть своего времени. Есть много хороших способов развеять скуку: поедать вкусности, танцевать, играть, проводить культурные фестивали. Множество комедийных ситуаций, проблемы «весны юности», молодежные розыгрыши и словесные шутки, милые персонажи и множество пасхалок не оставят любителей жанра равнодушными!",
+        "rate": "8,1",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62a83ef0a582f827460801.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "12",
+        "status": "Вышел",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Школа"
+        ],
+        "release": "с 10 января 2013 по 28 марта 2013",
+        "studio": [
+            "Dogakobo"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29252-megumi-amatsuka",
+            "https://animego.org/character/29253-mao-amatsuka",
+            "https://animego.org/character/29254-kirara-bernstein",
+            "https://animego.org/character/29255-tamaki-kannazuki",
+            "https://animego.org/character/29256-kyouya-shinomiya"
+        ]
+    },
+    {
+        "title": "Дропкик злого духа 3",
+        "synonyms": [
+            "Jashin-chan Dropkick X",
+            "Dropkick On My Devil!! X",
+            "邪神ちゃんドロップキックX",
+            "Jashin-chan Dropkick 3rd Season",
+            "Dropkick On My Devil!! 3rd Season"
+        ],
+        "slug": "dropkik-zlogo-duha-3-2054",
+        "description": "Третий сезон.",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c104d6c127b261283585.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Сверхъестественное"
+        ],
+        "release": "с 6 июля 2022 по 21 сентября 2022",
+        "studio": [
+            "Nomad"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/12089-yurine-hanazono",
+            "https://animego.org/character/12088-jashin-chan"
+        ]
+    },
+    {
+        "title": "Вечера с кошкой",
+        "synonyms": [
+            "Yoru wa Neko to Issho",
+            "Nights with a Cat",
+            "夜は猫といっしょ",
+            "Zutto Neko Shoshinsha"
+        ],
+        "slug": "vechera-s-koshkoy-2053",
+        "description": "Как и положено типичному сарариману, большую часть своей жизни Фута проводит на работе. Возвращаясь домой поздно ночью, он знает, что в дверях его встретит Кюруга — самая милая на свете кошка. Вместе они будут ужинать, смотреть телевизор, играть и выполнять уйму домашних дел. Каждый день Футы похож на предыдущий, но, несмотря на однообразие и усталость, его согревают мысли о вечерах с верным пушистым другом.",
+        "rate": "8,6",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62ec3d43c69bc917414011.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Повседневность"
+        ],
+        "release": "с 4 августа 2022",
+        "studio": [
+            "Studio Puyukai"
+        ],
+        "age_restriction": "16",
+        "duration": "2 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29889-fuuta-kun",
+            "https://animego.org/character/29890-kyuruga",
+            "https://animego.org/character/29891-pii-chan"
+        ]
+    },
+    {
+        "title": "Привлекая поцелуй",
+        "synonyms": [
+            "Engage Kiss",
+            "Engage Kiss",
+            "Engage Kiss",
+            "Клятвенный поцелуй"
+        ],
+        "slug": "privlekaya-poceluy-2052",
+        "description": "Вейрон-сити — город на огромном плавучем острове в Тихом океане, который не принадлежит ни к одной стране. Благодаря добыче оргония — нового источника энергии, он находится в центре мирового внимания. И на нём происходят так называемые «Д-бедствия» — происшествия, вызываемые дьяволами. О Д-бедствиях знают немногие, в том числе ЧВК, которые занимаются их ликвидацией. В одной из таких компаний, самой крошечной, работает Сю. По какой-то причине он очень придирчиво выбирает поручения, поэтому с деньгами у него вечно проблемы. Сю выручаю бывшая девушка и дочь бывшей начальницы Аяно, а также Кисара, с которой его связывают опасные узы...",
+        "rate": "8,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/630914b08c91d247771532.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 13",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Романтика"
+        ],
+        "release": "с 3 июля 2022 по 25 сентября 2022",
+        "studio": [
+            "A-1 Pictures Inc."
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29535-kisara",
+            "https://animego.org/character/29536-shuu-ogata",
+            "https://animego.org/character/29537-ayano-yuugiri"
+        ]
+    },
+    {
+        "title": "Красный, белый, чёрный, жёлтый: Ледяная империя",
+        "synonyms": [
+            "RWBY: Hyousetsu Teikoku",
+            "RWBY: Ice Queendom",
+            "RWBY 氷雪帝国",
+            "RWBY Ледяная империя"
+        ],
+        "slug": "krasnyy-belyy-chernyy-zheltyy-ledyanaya-imperiya-2051",
+        "description": "В мире под названием Ремнант сказки и наука идут рука об руку. Вот только человеческая цивилизация страдает от гриммов — невероятно опасных монстров. В какой-то момент даже казалось, что гриммы победят, однако героизм Охотников и Охотниц, поклявшихся защищать людей, спас человеческую расу. Охотники — это воины, которых обучают в специальных школах, например, в академии Бикон. Именно там Руби и ее сестра Ян знакомятся с Вайсс и Блейк, формируя команду RWBY. Они отдают все силы учебе, чтобы стать лучшими Охотницами в Ремнанте, но скоро им придется столкнуться с поистине ужасающей угрозой...",
+        "rate": "7,3",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/629708e22db74784472489.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Экшен"
+        ],
+        "release": "с 3 июля 2022 по 18 сентября 2022",
+        "studio": [
+            "SHAFT"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29237-blake-belladonna",
+            "https://animego.org/character/29238-ruby-rose",
+            "https://animego.org/character/29239-weiss-schnee",
+            "https://animego.org/character/29240-xiao-long-yang"
+        ]
+    },
+    {
+        "title": "Вермейл в золотом: Сильнейший маг проходит через магический мир с сильнейшей катастрофой",
+        "synonyms": [
+            "Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai wo Tsukisusumu",
+            "Vermeil in Gold",
+            "金装のヴェルメイユ ～崖っぷち魔術師は最強の厄災と魔法世界を突き進む～"
+        ],
+        "slug": "vermeyl-v-zolotom-silneyshiy-mag-prohodit-cherez-magicheskiy-mir-s-silneyshey-katastrofoy-2050",
+        "description": "Студент первого курса академии «Ортигия», Альто Голдфиллд, потерпел неудачу в магическом призыве и теперь, если не сумеет призвать фамильяра, будет вынужден остаться на второй год. В надежде найти толику полезной информации об этих самых призывах он направился в библиотеку, где случайно нашёл древнюю книгу. Воодушевившись, Альто начертил магический круг, произнёс заклинание и призвал демоницу по имени Вермейл, которая издавна была известна своей ужасающей силой и способностью вызывать катастрофы. Представшая перед ним женщина была дерзка и полностью обнажена, чем смутила молодого парня, но Альто Голдфиллд сумел-таки взять себя в руки и озвучил свое желание: «Стань моим фамильяром!»Новоиспечённому фамильяру жизненно необходима ежедневная подзарядка магической энергией, которую Вермейл получает от хозяина через поцелуй, и пока ученики академии пребывают в лёгком шоке от парочки, Лилия Кудельфейт, давняя подруга Альто, начинает завидовать их особым отношениям.",
+        "rate": "7,9",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6309150505848175033221.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Сёнэн",
+            "Фэнтези",
+            "Школа",
+            "Этти"
+        ],
+        "release": "с 5 июля 2022 по 20 сентября 2022",
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29236-alto-goldfilled",
+            "https://animego.org/character/29235-lilia-kudelfate",
+            "https://animego.org/character/29234-vermeil"
+        ]
+    },
+    {
+        "title": "Добро пожаловать в класс превосходства 2",
+        "synonyms": [
+            "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (TV) 2nd Season",
+            "Classroom of the Elite II",
+            "ようこそ実力至上主義の教室へ 2期",
+            "You-zitsu",
+            "Добро пожаловать в класс для особо одарённых 2",
+            "Classroom of the Elite 2nd Season"
+        ],
+        "slug": "dobro-pozhalovat-v-klass-prevoshodstva-2-2049",
+        "description": "Второй сезон.",
+        "rate": "9,3",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62970428b7d68168336728.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 13",
+        "status": "Онгоинг",
+        "genres": [
+            "Драма",
+            "Психологическое",
+            "Школа"
+        ],
+        "release": "с 4 июля 2022 по 26 сентября 2022",
+        "studio": [
+            "Lerche"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/5958-kiyotaka-ayanokouji"
+        ]
+    },
+    {
+        "title": "Экстремальные сердца",
+        "synonyms": [
+            "Extreme Hearts",
+            "Extreme Hearts（エクストリームハーツ）"
+        ],
+        "slug": "ekstremalnye-serdca-2048",
+        "description": "",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6297033ec12d9260339772.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "7",
+        "status": "Онгоинг",
+        "genres": [
+            "Музыка",
+            "Спорт"
+        ],
+        "release": "с 10 июля 2022",
+        "studio": [
+            "Seven Arcs"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29201-hiyori-hayama",
+            "https://animego.org/character/29202-saki-kodaka",
+            "https://animego.org/character/29203-sumika-maehara"
+        ]
+    },
+    {
+        "title": "Люцифер и Бисквитный Молот",
+        "synonyms": [
+            "Hoshi no Samidare",
+            "Lucifer and the Biscuit Hammer",
+            "惑星のさみだれ"
+        ],
+        "slug": "lyucifer-i-biskvitnyy-molot-2047",
+        "description": "Подходит как-то к студенту говорящая ящерица и сообщает, что скоро земле-матушке кирдык, так как злой волшебник Анимус разнесёт планету «Бисквитным молотом» прямо из космоса. А спастись можно только с помощью принцессы и её верных Звериных рыцарей, призванных защитить её от коварных каверз могучего злодея.Студент, звать которого Юхи Амамия, даже пальцем у виска не покрутил, ведь на него тотчас напал голем. От неизбежной смерти Юхи избавила соседка, а по совместительству та самая последняя надежда человечества — принцесса-избавительница Самидарэ Асахина. Деваться некуда, и Юхи, которого ящерица сэр Ной Крецант объявил избранным, стал Звериным рыцарем и принёс клятву верности принцессе. Землю-то ведь спасать надо!И только после этого Юхи узнаёт, что принцессе нет до людишек никакого дела, она стремится расправиться с Анимусом только для того, чтобы уничтожить Землю самой! Обалдевший от того, что выбора нет и люди сгинут в любом случае, Юхи решает справляться пока с насущными проблемами, а глобальные — отложить на потом. И вот они на пару с принцессой-совсем не избавительницей громят големов Анимуса, разыскивают других Звериных рыцарей и тренируются использовать новые силы.Долго ли удастся Юхи повторять себе «об этом я подумаю завтра» и откладывать стоящую перед ним дилемму: какую сторону ему выбрать и кого защищать до последнего вздоха?",
+        "rate": "6,0",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6309148204976240598322.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 24",
+        "status": "Онгоинг",
+        "genres": [
+            "Драма",
+            "Комедия",
+            "Приключения",
+            "Экшен"
+        ],
+        "release": "с 9 июля 2022",
+        "studio": [
+            "NAZ"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия"
+    },
+    {
+        "title": "Богиня идола-мерзавца",
+        "synonyms": [
+            "Kami Kuzu☆Idol",
+            "Phantom of the Idol",
+            "神クズ☆アイドル",
+            "Kami Kuzu Idol"
+        ],
+        "slug": "boginya-idola-merzavca-2046",
+        "description": "После очередного провального концерта, разочарованный в своей профессии Юй, сталкивается с очаровательной, энергичной и очень позитивной девушкой по имени Асахи. Позже, как оказалось, мечта яркой красотки стать айдолом в поп-группе и начать выступать. Но вот не задача, незнакомкой оказалась сама Асахи Могами – любимая певица миллионов, которая погибла год назад из-за несчастного случая. Парень скептически отнёсся к девушке – призраку, но вскоре ему придётся поверить и изменить своё мнение.С этого момента и начинается история одного ленивого айдола, чью карьеру необходимо спасать, и приведения, мечтающего стать настоящей поп-звездой.",
+        "rate": "7,5",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/629700f1b9939137942477.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "9 10",
+        "status": "Онгоинг",
+        "genres": [
+            "Дзёсэй",
+            "Комедия",
+            "Музыка",
+            "Сверхъестественное"
+        ],
+        "release": "с 2 июля 2022 по 3 сентября 2022",
+        "studio": [
+            "Studio Gokumi"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29188-asahi-mogami",
+            "https://animego.org/character/29189-yuuya-niyodo",
+            "https://animego.org/character/29190-kazuki-yoshino"
+        ]
+    },
+    {
+        "title": "Дочка босса и её нянька",
+        "synonyms": [
+            "Kumichou Musume to Sewagakari",
+            "The Yakuza's Guide to Babysitting",
+            "組長娘と世話係",
+            "Дочь главы якудзы и её нянька"
+        ],
+        "slug": "dochka-bossa-i-ee-nyanka-2045",
+        "description": "Мэри Поппинс? Нет, не знаем таких. Усатый нянь? Кто это? Обожающая детей домомучительница? Первый раз слышим!Пришла пора признать: новые времена — новые няньки! Супергувернантки, безупречные дворецкие, роботы-воспитатели — всё это прошлый век! Последнее слово в педагогической науке — няня-якудза!Возьмите самого безжалостного подчинённого в клане, добавьте опыта в взращивании юных бандитов, перемешайте с непоколебимой преданностью боссу, присыпьте сверху здравым смыслом, настоявшимся с прожитыми годами, — и вуаля! Ваша идеальная няня готова! Знакомьтесь — Тору Кирисима, правая рука босса, получивший прозвище Демон Сакураги. Когда ваше драгоценное чадо в его надёжных руках — можете спать спокойно!",
+        "rate": "9,1",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62969bd74bf82152452459.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Повседневность"
+        ],
+        "release": "с 7 июля 2022 по 22 сентября 2022",
+        "studio": [
+            "feel.",
+            "Fukushima Gainax"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29178-tooru-kirishima",
+            "https://animego.org/character/29179-yaeka-sakuragi"
+        ]
+    },
+    {
+        "title": "Аюму всё равно станет ближе",
+        "synonyms": [
+            "Soredemo Ayumu wa Yosetekuru",
+            "When Will Ayumu Make His Move?",
+            "それでも歩は寄せてくる",
+            "Even so",
+            "Ayumu draws closer to the endgame",
+            "Even So",
+            "Ayumu Approaches",
+            "Soreayu"
+        ],
+        "slug": "ayumu-vse-ravno-stanet-blizhe-2044",
+        "description": "Эта история крутится вокруг двух членов клуба сёги: девушке, помешанной на игре, и парне, который тайно влюблен в неё.",
+        "rate": "8,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/630914a68a402277472228.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Романтика",
+            "Сёнэн",
+            "Школа"
+        ],
+        "release": "с 8 июля 2022",
+        "studio": [
+            "Silver Link"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29172-ayumu-tanaka",
+            "https://animego.org/character/29173-urushi-yaotome"
+        ]
+    },
+    {
+        "title": "Новое Токио Мяу Мяу",
+        "synonyms": [
+            "Tokyo Mew Mew New ♡",
+            "Tokyo Mew Mew New",
+            "東京ミュウミュウ にゅ～♡"
+        ],
+        "slug": "novoe-tokio-myau-myau-2043",
+        "description": "",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/629695e5937a3035096586.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "8 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Романтика",
+            "Сёдзё",
+            "Фантастика",
+            "Фэнтези"
+        ],
+        "release": "с 6 июля 2022 по 21 сентября 2022",
+        "studio": [
+            "Graphinica",
+            "Yumeta Company"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29150-mint-aizawa",
+            "https://animego.org/character/29151-zakuro-fujiwara",
+            "https://animego.org/character/29152-bu-ling-huang",
+            "https://animego.org/character/29153-lettuce-midorikawa",
+            "https://animego.org/character/29154-ichigo-momomiya"
+        ]
+    },
+    {
+        "title": "Может, я встречу тебя в подземелье? 4",
+        "synonyms": [
+            "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen",
+            "Is It Wrong to Try to Pick Up Girls in a Dungeon? IV",
+            "ダンジョンに出会いを求めるのは間違っているだろうかⅣ 新章 迷宮篇",
+            "DanMachi 4th Season",
+            "Is It Wrong That I Want to Meet You in a Dungeon 4th Season"
+        ],
+        "slug": "mozhet-ya-vstrechu-tebya-v-podzemele-4-2042",
+        "description": "Один из верных союзников Белла обвиняется в ужасном преступлении - в жестоком убийстве, потрясшем сообщество искателей приключений! Теперь Беллу и его друзьям предстоит раскрыть гнусный заговор, зреющий в темных глубинах подземелья.",
+        "rate": "9,1",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6309149dac028200468268.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "6",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Приключения",
+            "Романтика",
+            "Фэнтези",
+            "Экшен"
+        ],
+        "release": "с 21 июля 2022",
+        "studio": [
+            "J.C. Staff"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "18",
+        "duration": "23 мин серия",
+        "main_characters": [
+            "https://animego.org/character/6768-bell-cranel",
+            "https://animego.org/character/6782-hestia"
+        ]
+    },
+    {
+        "title": "Девушка на час 2",
+        "synonyms": [
+            "Kanojo, Okarishimasu 2nd Season",
+            "Rent-a-Girlfriend 2nd Season",
+            "彼女、お借りします",
+            "Kanokari",
+            "Девушка напрокат 2"
+        ],
+        "slug": "devushka-na-chas-2-2041",
+        "description": "Как же за последнее время изменилась жизнь Казуи Киношиты! Ещё недавно он был унылым девственником, которого бросила любимая, а теперь вокруг него так и вьются девушки, причём одна краше другой. Обворожительная Чизуру, прелестная Рукачка, очаровательная Суми и неотразимая Мамичка — выбор просто шикарный. Но не всё так просто. Дело в том, что наш герой, похоже, влюбился по-настоящему. И не в кого-то, а в Чизуру, «девушку на час», которой он платит за свидания. А тут, как назло, она ещё и собирается увольняться, а значит, их фальшивым отношениям скоро придёт конец. Казалось бы, признайся ей, и будь что будет, но для такого патологического девственника, как Казуя, это, наверное, слишком. Хотя знал бы он истинные чувства Чизуру — действовал бы смелее.",
+        "rate": "8,0",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62c104d0cb17c759103486.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "9 12",
+        "status": "Онгоинг",
+        "genres": [
+            "Комедия",
+            "Романтика",
+            "Сёнэн",
+            "Школа"
+        ],
+        "release": "с 2 июля 2022 по 17 сентября 2022",
+        "studio": [
+            "TMS Entertainment"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "24 мин серия",
+        "main_characters": [
+            "https://animego.org/character/23461-chizuru-ichinose",
+            "https://animego.org/character/23462-kazuya-kinoshita"
+        ]
+    },
+    {
+        "title": "Пляжные приключения Муроми OVA",
+        "synonyms": [
+            "Namiuchigiwa no Muromi-san: Pangea Chou Tairiku no Muromi-san",
+            "波打際のむろみさん パンゲア超大陸のむろみさん",
+            "Namiuchigiwa no Muromi-san OVA",
+            "Муроми на волне OVA",
+            "Русалка Муроми OVA"
+        ],
+        "slug": "muromi-na-volne-ova-2040",
+        "description": "Дополнительный эпизод сериала «Муроми на волне», вышедший ограниченным тиражом в комплекте с девятым томом оригинальной манги, в котором Муроми поделится интересными историями из своего прошлого, мол это именно она послужила прообразом для прекрасной Белоснежки из сказки Братьев Гримм, и что на основе именно её жития-бытия Ганс Христиан Андерсен написал сказку об очаровательной русалочке, где и принц самый настоящий был, и желание заполучить точёные ножки, но в остальном всё до абсурдности было совершенно не так, как рассказывают нынче детям.",
+        "rate": 0,
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/6294ef2666cf4470908982.jpg",
+        "type": "OVA",
+        "episodes": "1",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Сёнэн",
+            "Фэнтези"
+        ],
+        "release": "16 августа 2013",
+        "studio": [
+            "Tatsunoko Productions"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "27 мин",
+        "main_characters": [
+            "https://animego.org/character/29134-takurou-mukoujima",
+            "https://animego.org/character/29135-muromi-san"
+        ]
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+        "title": "Я не понимаю, что говорит мой муж 2",
+        "synonyms": [
+            "Danna ga Nani wo Itteiru ka Wakaranai Ken 2 Sure-me",
+            "I Can't Understand What My Husband Is Saying: 2nd Thread",
+            "旦那が何を言っているかわからない件2スレ目",
+            "Danna ga Nani wo Itteiru ka Wakaranai Ken 2nd Season",
+            "I Can't Understand What My Husband Is Saying Second Season"
+        ],
+        "slug": "ya-ne-ponimayu-chto-govorit-moy-muzh-2-2032",
+        "description": "Зачем Каору, нормальной молодой женщине – современной, работающей, здравомыслящей – выходить замуж за отаку?.. ну, что тут скажешь! Любая свадьба – это всё-таки свадебное платье, а для девушки большего и не нужно.И что с того, что муж – блогер, рецензент, социопат и нидзиконщик, и что его младший брат постоянно рисует мангу с его участием, отводя Хадзимэ роль укэ? В конце концов, у каждого свои недостатки. Давно известно, что принцев на белых ягуарах, шейхов на белых боингах и импозантных холостых директоров нефтяных холдингов не хватает на всех офисных служащих. Поэтому совет да любовь, Каору и Хадзимэ – прочного союза, взаимного снисхождения и бесперебойного интернета вашей дружной полунормальной семье!",
+        "rate": "8,4",
+        "cover": "https://animego.org/media/cache/thumbs_250x350/upload/anime/images/62871f3b85a9c323138793.jpg",
+        "type": "ТВ Сериал",
+        "episodes": "13",
+        "status": "Вышел",
+        "genres": [
+            "Комедия",
+            "Повседневность",
+            "Романтика",
+            "Сэйнэн"
+        ],
+        "release": "с 3 апреля 2015 по 26 июня 2015",
+        "studio": [
+            "Seven"
+        ],
+        "mpaa_rate": "PG 13",
+        "age_restriction": "16",
+        "duration": "3 мин серия",
+        "main_characters": [
+            "https://animego.org/character/29023-hajime-tsunashi",
+            "https://animego.org/character/29024-kaoru-tsunashi"
+        ]
+    },
+    {},
+    {}
 ]
