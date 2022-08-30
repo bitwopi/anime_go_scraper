@@ -1,25 +1,13 @@
 import logging
 import re
-import time
-from random import choice
 
 from bs4 import BeautifulSoup
 import lxml
 import cfscrape
+from fake_useragent import UserAgent
 
+ua = UserAgent()
 cfscraper = cfscrape.create_scraper(delay=12)
-user_agents = [
-    'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
-    'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
-    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/602.2.14 (KHTML, like Gecko) Version/10.0.1 Safari/602.2.14',
-    'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36',
-    'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36',
-    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36',
-    'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:50.0) Gecko/20100101 Firefox/50.0',
-    'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36']
 
 
 keys = {
@@ -39,18 +27,15 @@ keys = {
     'тома': "tomes",
     'издательство': "publisher",
     'выпуск': "release",
+    'снят по манге': "source",
+    'снят по ранобэ': "source",
 }
-
-
-def randomUserAgent():
-    return {
-        'user-agent': choice(user_agents)
-    }
 
 
 def getPageItemsLinks(keyword="anime", page=1):
     """ returns links to all anime on a page """
-    response = cfscraper.get('https://animego.org/{}/{}'.format(keyword, page), headers=randomUserAgent())
+    response = cfscraper.get('https://animego.org/{}/{}'.format(keyword, page),
+                             headers={'User-Agent': ua.random})
     if response.status_code != 200:
         logging.info(" page response code isn't 200")
         return []
@@ -67,7 +52,7 @@ def getPageItemsLinks(keyword="anime", page=1):
 def getAnimeInfo(url):
     """ returns dictionary with info about anime from link """
     try:
-        response = cfscraper.get(url, headers=randomUserAgent())
+        response = cfscraper.get(url, headers={'User-Agent': ua.random})
         if response.status_code != 200:
             logging.info(" anime response code isn't 200")
             return {}
@@ -81,7 +66,7 @@ def getAnimeInfo(url):
         soup_desc = soup.find('div', class_=re.compile('description'))
         cover = soup.find('div', class_=re.compile('anime-poster')).find('img').get('src')
         try:
-            rate = soup.find('div', class_='pr-2').find('span', class_='rating-value').text
+            rate = int(soup.find('div', class_='pr-2').find('span', class_='rating-value').text)
         except:
             rate = 0
         info = {
@@ -103,43 +88,57 @@ def getAnimeInfo(url):
                     info[key] = getStudios(info_items[i])
                 elif key == "main_characters":
                     info[key] = getCharacterLinks(info_items[i])
+                elif key == "episodes":
+                    info[key] = int(value)
+                elif key == "source":
+                    info[key] = info_items[i].find('a').get('href')
                 else:
                     info[key] = value
         logging.info(" anime info successfully received")
         return info
-    except:
-        {}
+    except Exception as ex:
+        logging.error(ex)
+        return {}
 
 
 def getCharacterInfo(url):
     """ returns a dictionary with info about character from url """
-    response = cfscraper.get(url, headers=randomUserAgent())
+    response = cfscraper.get(url, headers={'User-Agent': ua.random})
     if response.status_code != 200:
         logging.error(" status code isn't 200")
         return {}
-    html_file = response.content
-    soup = BeautifulSoup(html_file, 'lxml')
-    name = soup.find('div', class_=re.compile('character-title')).find('h1').text
-    soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
     try:
-        desc = soup.find('div', itemprop='description').text.strip()
-    except:
-        desc = ''
-    cover = soup.find('div', class_=re.compile('character-poster')).find('img').get('src')
-    info = {
-        'name': name,
-        'synonyms': getSynonyms(soup_synonyms),
-        'slug': getSlug(url),
-        'cover': cover,
-        'description': desc,
-    }
-    logging.info(" character info successfully")
-    return info
+        html_file = response.content
+        soup = BeautifulSoup(html_file, 'lxml')
+        name = soup.find('div', class_=re.compile('character-title')).find('h1').text
+        soup_synonyms = soup.find('div', class_='synonyms').find_all('li')
+        try:
+            voice_actor = soup.find('div', class_='col-md-4 mb-2').find('a').get('href')
+        except:
+            voice_actor = ''
+        try:
+            desc = soup.find('div', itemprop='description').text.strip()
+        except:
+            desc = ''
+        cover = soup.find('div', class_=re.compile('character-poster')).find('img').get('src')
+        info = {
+            'name': name,
+            'synonyms': getSynonyms(soup_synonyms),
+            'slug': getSlug(url),
+            'cover': cover,
+            'description': desc,
+            'voice_actor': voice_actor,
+        }
+        logging.info(" character info successfully received")
+        return info
+    except Exception as ex:
+        logging.error(ex)
+        return {}
 
 
 def getPerson(url):
     """ returns a dictionary with info about person from url """
-    response = cfscraper.get(url, headers=randomUserAgent())
+    response = cfscraper.get(url, headers={'User-Agent': ua.random})
     if response.status_code != 200:
         logging.info(" person response code isn't 200")
         return {}
@@ -169,7 +168,7 @@ def getPerson(url):
 
 def getMangaInfo(url):
     """ returns a dictionary with info about manga from url """
-    response = cfscraper.get(url, headers=randomUserAgent())
+    response = cfscraper.get(url, headers={'User-Agent': ua.random})
     if response.status_code != 200:
         logging.info(" manga response code isn't 200")
         return {}
