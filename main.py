@@ -21,6 +21,54 @@ load_dotenv()
 ua = UserAgent()
 
 
+def select_all_animes():
+    query = "SELECT slug FROM main_app_anime"
+    connection = None
+    cursor = None
+    try:
+        connection = psycopg2.connect(user=os.environ.get("USER"),
+                                      password=os.environ.get("PASSWORD"),
+                                      host=os.environ.get("HOST"),
+                                      port="5432",
+                                      database=os.environ.get("DB_NAME"),
+                                      )
+        connection.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+    except (Exception, Error) as ex:
+        print(ex)
+    finally:
+        if connection:
+            cursor.close()
+            connection.close()
+            print("Connection is closed")
+
+
+def select_all_manga():
+    query = "SELECT slug FROM main_app_manga"
+    connection = None
+    cursor = None
+    try:
+        connection = psycopg2.connect(user=os.environ.get("USER"),
+                                      password=os.environ.get("PASSWORD"),
+                                      host=os.environ.get("HOST"),
+                                      port="5432",
+                                      database=os.environ.get("DB_NAME"),
+                                      )
+        connection.set_isolation_level(ISOLATION_LEVEL_AUTOCOMMIT)
+        cursor = connection.cursor()
+        cursor.execute(query)
+        return cursor.fetchall()
+    except (Exception, Error) as ex:
+        print(ex)
+    finally:
+        if connection:
+            cursor.close()
+            connection.close()
+            print("Connection is closed")
+
+
 def insert_studio(studio: dict):
     try:
         insert_query = "INSERT INTO main_app_studio (name, slug, logo) VALUES (%s, %s, %s)"
@@ -100,7 +148,7 @@ def insert_anime(anime: dict):
             episodes = None
         else:
             episodes = anime['episodes']
-        insert_data = (anime['title'], ' '.join(anime['synonyms']), anime['slug'], anime['description'], anime['rate'],
+        insert_data = (anime['title'], ','.join(anime['synonyms']), anime['slug'], anime['description'], anime['rate'],
                        is_out, episodes, fpath, type_id)
         execute_sql_script(insert_query, insert_data)
     except Exception as ex:
@@ -124,7 +172,7 @@ def insert_manga(manga: dict):
         name = '-'.join(re.findall(r"[\w']+", manga['title'].lower()))
         fpath = f"/manga/covers/{name}.jpg"
         type_id = select_type(manga['type'])[0]
-        insert_data = (manga['title'], ' '.join(manga['synonyms']), manga['slug'], manga['description'], fpath, type_id)
+        insert_data = (manga['title'], ','.join(manga['synonyms']), manga['slug'], manga['description'], fpath, type_id)
         execute_sql_script(insert_query, insert_data)
     except Exception as ex:
         logging.error(ex)
@@ -133,7 +181,7 @@ def insert_manga(manga: dict):
 def insert_character(character: dict):
     try:
         insert_query = "INSERT INTO main_app_character (name, synonyms, slug, description) VALUES (%s, %s, %s, %s)"
-        insert_data = (character['name'], ' '.join(character['synonyms']), character['slug'], character['description'],)
+        insert_data = (character['name'], ','.join(character['synonyms']), character['slug'], character['description'],)
         execute_sql_script(insert_query, insert_data)
     except Exception as ex:
         logging.error(ex)
@@ -159,7 +207,7 @@ def insert_category(category: str):
 def insert_person(person: dict):
     try:
         insert_query = "INSERT INTO main_app_person (name, synonyms, slug) VALUES (%s, %s, %s)"
-        insert_data = (person['name'], ' '.join(person['synonyms']), person['slug'],)
+        insert_data = (person['name'], ','.join(person['synonyms']), person['slug'],)
         execute_sql_script(insert_query, insert_data)
     except Exception as ex:
         logging.error(ex)
@@ -205,6 +253,99 @@ def execute_sql_script(query, data):
             print("Connection is closed")
 
 
+def update_anime_category(anime):
+    query = "INSERT INTO main_app_anime_category (anime_id, category_id) VALUES(%s, %s)"
+    cursor = execute_sql_script("SELECT id FROM main_app_anime WHERE slug = %s", (anime['slug'],))
+    anime_id = cursor[0]
+    for cat in anime['genres']:
+        print(cat)
+        cursor = execute_sql_script("SELECT id FROM main_app_category WHERE name = %s", (cat,))
+        if cursor is None:
+            execute_sql_script("INSERT INTO main_app_category (name, slug) VALUES(%s, %s)",
+                               (cat, translit(cat.lower(), reversed=True)))
+            cursor = execute_sql_script("SELECT id FROM main_app_category WHERE name = %s", (cat,))
+        category_id = cursor[0]
+        data = (anime_id, category_id)
+        execute_sql_script(query, data)
+
+
+def update_manga_category(manga):
+    query = "INSERT INTO main_app_manga_category (manga_id, category_id) VALUES(%s, %s)"
+    cursor = execute_sql_script("SELECT id FROM main_app_manga WHERE slug = %s", (manga['slug'],))
+    manga_id = cursor[0]
+    for cat in manga['genres']:
+        print(cat)
+        cursor = execute_sql_script("SELECT id FROM main_app_category WHERE name = %s", (cat,))
+        if cursor is None:
+            execute_sql_script("INSERT INTO main_app_category (name, slug) VALUES(%s, %s)",
+                               (cat, translit(cat.lower(), reversed=True)))
+            cursor = execute_sql_script("SELECT id FROM main_app_category WHERE name = %s", (cat,))
+        category_id = cursor[0]
+        data = (manga_id, category_id)
+        execute_sql_script(query, data)
+
+
+def update_anime_studio(anime):
+    query = "INSERT INTO main_app_anime_studios (anime_id, studio_id) VALUES(%s, %s)"
+    cursor = execute_sql_script("SELECT id FROM main_app_anime WHERE slug = %s", (anime['slug'],))
+    anime_id = cursor[0]
+    for studio in anime['studio']:
+        print(studio)
+        cursor = execute_sql_script("SELECT id FROM main_app_studio WHERE name = %s", (studio,))
+        if cursor is None:
+            execute_sql_script("INSERT INTO main_app_studio (name, slug) VALUES(%s, %s)", (studio, studio.lower()))
+            cursor = execute_sql_script("SELECT id FROM main_app_studio WHERE name = %s", (studio,))
+        studio_id = cursor[0]
+        data = (anime_id, studio_id)
+        execute_sql_script(query, data)
+
+
+def update_anime_main_chars(anime):
+    query = "INSERT INTO main_app_anime_main_chars (anime_id, character_id) VALUES(%s, %s)"
+    cursor = execute_sql_script("SELECT id FROM main_app_anime WHERE slug = %s", (anime['slug'],))
+    anime_id = cursor[0]
+    for character_link in anime['main_characters']:
+        character = getCharacterInfo(character_link)
+        print(character['name'])
+        cursor = execute_sql_script("SELECT id FROM main_app_character WHERE name = %s", (character['name'],))
+        if cursor is None:
+            continue
+        character_id = cursor[0]
+        data = (anime_id, character_id)
+        execute_sql_script(query, data)
+        time.sleep(1)
+
+
+def update_manga_main_chars(manga):
+    query = "INSERT INTO main_app_manga_main_characters (manga_id, character_id) VALUES(%s, %s)"
+    cursor = execute_sql_script("SELECT id FROM main_app_manga WHERE slug = %s", (manga['slug'],))
+    manga_id = cursor[0]
+    try:
+        for character_link in manga['main_characters']:
+            character = getCharacterInfo(character_link)
+            print(character['name'])
+            cursor = execute_sql_script("SELECT id FROM main_app_character WHERE name = %s", (character['name'],))
+            if cursor is None:
+                continue
+            character_id = cursor[0]
+            data = (manga_id, character_id)
+            execute_sql_script(query, data)
+            time.sleep(1)
+    except:
+        return
+
+
+def test():
+    slugs = select_all_manga()
+    for slug in slugs:
+        url = f"https://animego.org/manga/{slug[0]}"
+        print(url)
+        manga = getMangaInfo(url)
+        print(manga)
+        # if len(manga):
+        #     update_manga_main_chars(manga)
+
+
 def main():
     logging.basicConfig(level=logging.INFO)
     links = getPageItemsLinks(keyword="anime", page=101)
@@ -212,11 +353,11 @@ def main():
         for link in links:
             print(link)
             a = getAnimeInfo(link)
-            name_a = '-'.join(re.findall(r"[\w']+", a['title'].lower()))
-            with open(f"/home/bitwopi/Desktop/MyFirstSite/mysite/media/animes/covers/{name_a}.jpg", 'wb') as file:
-                file.write(requests.get(a['cover']).content)
-                time.sleep(2)
-            insert_anime(a)
+            # name_a = '-'.join(re.findall(r"[\w']+", a['title'].lower()))
+            # with open(f"/home/bitwopi/Desktop/MyFirstSite/mysite/media/animes/covers/{name_a}.jpg", 'wb') as file:
+            #     file.write(requests.get(a['cover']).content)
+            #     time.sleep(2)
+            # insert_anime(a)
             try:
                 manga = getMangaInfo(a['source'])
                 print(manga['type'])
@@ -246,7 +387,7 @@ def main():
                     # update_character(character)
                     # update_person(voice_actor)
     except Exception as ex:
-        logging.error(ex)
+        print(ex)
             # voice_actor = getPerson(character['voice_actor'])
             # name = '-'.join(re.findall(r"[\w']+", voice_actor['name'].lower()))
             # with open(f"/home/bitwopi/Desktop/MyFirstSite/mysite/media/persons/photos/{name}.jpg", 'wb') as file:
@@ -264,12 +405,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-    # loop = asyncio.get_event_loop()
-    # logging.basicConfig(level='INFO')
-    # try:
-    #     loop.run_until_complete(async_main())
-    #     with open("final.json", 'w', encoding='utf-8') as file:
-    #         json.dump(result, file, indent=4, ensure_ascii=False)
-    # finally:
-    #     loop.stop()
+    test()
