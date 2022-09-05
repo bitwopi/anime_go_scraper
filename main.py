@@ -140,7 +140,7 @@ def insert_anime(anime: dict):
             else:
                 is_out = False
         except:
-            is_out = False
+            is_out = True
         name = '-'.join(re.findall(r"[\w']+", anime['title'].lower()))
         fpath = f"/animes/covers/{name}.jpg"
         type_id = select_type(anime['type'])[0]
@@ -155,11 +155,11 @@ def insert_anime(anime: dict):
         logging.error(ex)
 
 
-def update_anime(anime: dict, slug: str):
+def update_anime(anime: dict):
     try:
-        insert_query = "UPDATE main_app_anime SET source_id = %s WHERE slug = %s"
-        source_id = select_source(slug)
-        insert_data = (source_id, anime['slug'],)
+        insert_query = "UPDATE main_app_anime SET rate = %s WHERE slug = %s"
+        # source_id = select_source(slug)
+        insert_data = (anime['rate'], anime['slug'],)
         execute_sql_script(insert_query, insert_data)
     except Exception as ex:
         logging.error(ex)
@@ -336,12 +336,19 @@ def update_manga_main_chars(manga):
 
 
 def test():
-    slugs = select_all_manga()
+    slugs = select_all_animes()
     for slug in slugs:
-        url = f"https://animego.org/manga/{slug[0]}"
+        url = f"https://animego.org/anime/{slug[0]}"
         print(url)
-        manga = getMangaInfo(url)
-        print(manga)
+        anime = getAnimeInfo(url)
+        update_anime(anime)
+    # if len(manga):
+    #     update_manga_main_chars(manga)
+    # slugs = select_all_manga()
+    # for slug in slugs:
+    #     url = f"https://animego.org/manga/{slug[0]}"
+    #     print(url)
+    #     manga = getMangaInfo(url)
         # if len(manga):
         #     update_manga_main_chars(manga)
 

@@ -66,9 +66,10 @@ def getAnimeInfo(url):
         soup_desc = soup.find('div', class_=re.compile('description'))
         cover = soup.find('div', class_=re.compile('anime-poster')).find('img').get('src')
         try:
-            rate = int(soup.find('div', class_='pr-2').find('span', class_='rating-value').text)
-        except:
-            rate = 0
+            rate = float(soup.find('span', class_='rating-value').text.replace(',', '.'))
+        except Exception as ex:
+            logging.error(ex)
+            rate = 0.0
         info = {
             'title': title,
             'synonyms': getSynonyms(soup_synonyms),
@@ -187,7 +188,13 @@ def getMangaInfo(url):
         'slug': getSlug(url),
         'description': soup_desc.text.strip(),
         'cover': cover,
+
     }
+    try:
+        soup_characters = soup.find('dd', class_=re.compile('col-6 col-sm-8'))
+        info['main_characters'] = getCharacterLinks(soup_characters)
+    except Exception as ex:
+        logging.error(str(ex) + ", there are no main characters")
     for i in range(len(info_keys)):
         key = re.sub('\W+', ' ', info_keys[i].text).strip().lower()
         value = re.sub('\W+', ' ', info_items[i].text).strip()
